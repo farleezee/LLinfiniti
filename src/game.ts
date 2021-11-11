@@ -1,3 +1,6 @@
+import { createChannel } from '../node_modules/decentraland-builder-scripts/channel'
+import { createInventory } from '../node_modules/decentraland-builder-scripts/inventory'
+import Script1 from "../aff6ff37-d8c9-46f5-a9ac-14e524486ffe/src/item"
 
 const _scene = new Entity('_scene')
 engine.addEntity(_scene)
@@ -182,3 +185,37 @@ const transform13 = new Transform({
 })
 wallZigzag3.addComponentOrReplace(transform13)
 wallZigzag3.addComponentOrReplace(gltfShape6)
+
+const roundGalleryLight = new Entity('roundGalleryLight')
+engine.addEntity(roundGalleryLight)
+roundGalleryLight.setParent(_scene)
+const transform14 = new Transform({
+  position: new Vector3(9.627737998962402, 4.8407368659973145, 0.6689205169677734),
+  rotation: new Quaternion(0, 0, 0, 1),
+  scale: new Vector3(10.491924285888672, 1, 1)
+})
+roundGalleryLight.addComponentOrReplace(transform14)
+
+const litCandleWithGoldenHolder2 = new Entity('litCandleWithGoldenHolder2')
+engine.addEntity(litCandleWithGoldenHolder2)
+litCandleWithGoldenHolder2.setParent(_scene)
+const transform15 = new Transform({
+  position: new Vector3(9.5, 0, 0),
+  rotation: new Quaternion(0, 0, 0, 1),
+  scale: new Vector3(1, 1, 1)
+})
+litCandleWithGoldenHolder2.addComponentOrReplace(transform15)
+const gltfShape8 = new GLTFShape("575116b2-a09f-4979-8d93-7abdd0c9b4ff/Candle_04/Candle_04.glb")
+gltfShape8.withCollisions = true
+gltfShape8.isPointerBlocker = true
+gltfShape8.visible = true
+litCandleWithGoldenHolder2.addComponentOrReplace(gltfShape8)
+
+const channelId = Math.random().toString(16).slice(2)
+const channelBus = new MessageBus()
+const inventory = createInventory(UICanvas, UIContainerStack, UIImage)
+const options = { inventory }
+
+const script1 = new Script1()
+script1.init(options)
+script1.spawn(roundGalleryLight, {"startOn":true,"clickable":true}, createChannel(channelId, roundGalleryLight, channelBus))
