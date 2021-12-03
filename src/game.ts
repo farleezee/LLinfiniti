@@ -129,7 +129,7 @@ const nftShape = new NFTShape("ethereum://0x2a46f2ffd99e19a89476e2f62270e0a35bbf
 nftShape.withCollisions = true
 nftShape.isPointerBlocker = true
 nftShape.visible = true
-nftShape.color = {"r":0.6404918,"g":0.611472,"b":0.8584906}
+nftShape.color = new Color3(0.6404918, 0.611472, 0.8584906)
 nft.addComponentOrReplace(nftShape)
 
 const nft2 = new Entity('nft2')
@@ -145,7 +145,7 @@ const nftShape2 = new NFTShape("ethereum://0x2a46f2ffd99e19a89476e2f62270e0a35bb
 nftShape2.withCollisions = true
 nftShape2.isPointerBlocker = true
 nftShape2.visible = true
-nftShape2.color = {"r":0.6404918,"g":0.611472,"b":0.8584906}
+nftShape2.color = new Color3(0.6404918, 0.611472, 0.8584906)
 nft2.addComponentOrReplace(nftShape2)
 
 const nft4 = new Entity('nft4')
@@ -161,7 +161,7 @@ const nftShape3 = new NFTShape("ethereum://0x2a187453064356c898cae034eaed119e166
 nftShape3.withCollisions = true
 nftShape3.isPointerBlocker = true
 nftShape3.visible = true
-nftShape3.color = {"r":0.6404918,"g":0.611472,"b":0.8584906}
+nftShape3.color = new Color3(0.6404918, 0.611472, 0.8584906)
 nft4.addComponentOrReplace(nftShape3)
 
 const wallZigzag2 = new Entity('wallZigzag2')
@@ -214,8 +214,8 @@ litCandleWithGoldenHolder2.addComponentOrReplace(gltfShape8)
 const channelId = Math.random().toString(16).slice(2)
 const channelBus = new MessageBus()
 const inventory = createInventory(UICanvas, UIContainerStack, UIImage)
-const options = { inventory }
+//const options = { inventory }
 
 const script1 = new Script1()
-script1.init(options)
+script1.init()
 script1.spawn(roundGalleryLight, {"startOn":true,"clickable":true}, createChannel(channelId, roundGalleryLight, channelBus))
