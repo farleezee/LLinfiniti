@@ -7031,9 +7031,9 @@ const couchThreeSeater = new Entity('couchThreeSeater')
 engine.addEntity(couchThreeSeater)
 couchThreeSeater.setParent(_scene)
 const transform15 = new Transform({
-  position: new Vector3(2.409144639968872, 0, 7.1673784255981445),
+  position: new Vector3(2.6349897384643555, 0, 7.026543617248535),
   rotation: new Quaternion(-1.5394153601527394e-15, 0.7071068286895752, -8.429369557916289e-8, 0.7071068286895752),
-  scale: new Vector3(1.5000052452087402, 1, 1.0000019073486328)
+  scale: new Vector3(1.5000059604644775, 1, 1.000002145767212)
 })
 couchThreeSeater.addComponentOrReplace(transform15)
 const gltfShape8 = new GLTFShape("7ec82823-7d54-4456-9a88-faf48f6098e1/ThreeSeater_Couch.glb")
@@ -7046,7 +7046,7 @@ const loveseat = new Entity('loveseat')
 engine.addEntity(loveseat)
 loveseat.setParent(_scene)
 const transform16 = new Transform({
-  position: new Vector3(14.301980972290039, 0, 9.408266067504883),
+  position: new Vector3(14.193903923034668, 0, 8.983481407165527),
   rotation: new Quaternion(0, 0, 0, 1),
   scale: new Vector3(1, 1, 1.7677202224731445)
 })
@@ -7101,9 +7101,9 @@ const rainLight = new Entity('rainLight')
 engine.addEntity(rainLight)
 rainLight.setParent(_scene)
 const transform20 = new Transform({
-  position: new Vector3(5, 2, 10.5),
+  position: new Vector3(5.804931640625, 2, 10.307319641113281),
   rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(1, 1, 1)
+  scale: new Vector3(1.5258851051330566, 1, 1)
 })
 rainLight.addComponentOrReplace(transform20)
 
@@ -7111,9 +7111,9 @@ const rainLight2 = new Entity('rainLight2')
 engine.addEntity(rainLight2)
 rainLight2.setParent(_scene)
 const transform21 = new Transform({
-  position: new Vector3(6.5, 2, 10.5),
+  position: new Vector3(8.093759536743164, 2, 10.307319641113281),
   rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(1, 1, 1)
+  scale: new Vector3(1.5258851051330566, 1, 1)
 })
 rainLight2.addComponentOrReplace(transform21)
 
@@ -7121,281 +7121,161 @@ const rainLight3 = new Entity('rainLight3')
 engine.addEntity(rainLight3)
 rainLight3.setParent(_scene)
 const transform22 = new Transform({
-  position: new Vector3(8, 2, 10.5),
+  position: new Vector3(10.382587432861328, 2, 10.307319641113281),
   rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(1, 1, 1)
+  scale: new Vector3(1.5258851051330566, 1, 1)
 })
 rainLight3.addComponentOrReplace(transform22)
-
-const rainLight4 = new Entity('rainLight4')
-engine.addEntity(rainLight4)
-rainLight4.setParent(_scene)
-const transform23 = new Transform({
-  position: new Vector3(9.5, 2, 10.5),
-  rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(1, 1, 1)
-})
-rainLight4.addComponentOrReplace(transform23)
 
 const rainLight5 = new Entity('rainLight5')
 engine.addEntity(rainLight5)
 rainLight5.setParent(_scene)
-const transform24 = new Transform({
-  position: new Vector3(5.008172988891602, 2, 9.492817878723145),
+const transform23 = new Transform({
+  position: new Vector3(5.8174028396606445, 2, 9.300137519836426),
   rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(1, 1, 1)
+  scale: new Vector3(1.5258851051330566, 1, 1)
 })
-rainLight5.addComponentOrReplace(transform24)
+rainLight5.addComponentOrReplace(transform23)
 
 const rainLight6 = new Entity('rainLight6')
 engine.addEntity(rainLight6)
 rainLight6.setParent(_scene)
-const transform25 = new Transform({
-  position: new Vector3(6.508172988891602, 2, 9.492817878723145),
+const transform24 = new Transform({
+  position: new Vector3(8.106230735778809, 2, 9.300137519836426),
   rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(1, 1, 1)
+  scale: new Vector3(1.5258851051330566, 1, 1)
 })
-rainLight6.addComponentOrReplace(transform25)
+rainLight6.addComponentOrReplace(transform24)
 
 const rainLight7 = new Entity('rainLight7')
 engine.addEntity(rainLight7)
 rainLight7.setParent(_scene)
-const transform26 = new Transform({
-  position: new Vector3(8.008172988891602, 2, 9.492817878723145),
+const transform25 = new Transform({
+  position: new Vector3(10.395057678222656, 2, 9.300137519836426),
   rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(1, 1, 1)
+  scale: new Vector3(1.5258851051330566, 1, 1)
 })
-rainLight7.addComponentOrReplace(transform26)
-
-const rainLight8 = new Entity('rainLight8')
-engine.addEntity(rainLight8)
-rainLight8.setParent(_scene)
-const transform27 = new Transform({
-  position: new Vector3(9.508172988891602, 2, 9.492817878723145),
-  rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(1, 1, 1)
-})
-rainLight8.addComponentOrReplace(transform27)
-
-const rainLight9 = new Entity('rainLight9')
-engine.addEntity(rainLight9)
-rainLight9.setParent(_scene)
-const transform28 = new Transform({
-  position: new Vector3(9.490724563598633, 2, 8.510519027709961),
-  rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(1, 1, 1)
-})
-rainLight9.addComponentOrReplace(transform28)
+rainLight7.addComponentOrReplace(transform25)
 
 const rainLight10 = new Entity('rainLight10')
 engine.addEntity(rainLight10)
 rainLight10.setParent(_scene)
-const transform29 = new Transform({
-  position: new Vector3(4.990724563598633, 2, 8.510519027709961),
+const transform26 = new Transform({
+  position: new Vector3(5.790778636932373, 2, 8.317838668823242),
   rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(1, 1, 1)
+  scale: new Vector3(1.5258851051330566, 1, 1)
 })
-rainLight10.addComponentOrReplace(transform29)
+rainLight10.addComponentOrReplace(transform26)
 
 const rainLight11 = new Entity('rainLight11')
 engine.addEntity(rainLight11)
 rainLight11.setParent(_scene)
-const transform30 = new Transform({
-  position: new Vector3(4.998897552490234, 2, 7.5033369064331055),
+const transform27 = new Transform({
+  position: new Vector3(5.803249359130859, 2, 7.310656547546387),
   rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(1, 1, 1)
+  scale: new Vector3(1.5258851051330566, 1, 1)
 })
-rainLight11.addComponentOrReplace(transform30)
+rainLight11.addComponentOrReplace(transform27)
 
 const rainLight12 = new Entity('rainLight12')
 engine.addEntity(rainLight12)
 rainLight12.setParent(_scene)
-const transform31 = new Transform({
-  position: new Vector3(6.490724563598633, 2, 8.510519027709961),
+const transform28 = new Transform({
+  position: new Vector3(8.079606056213379, 2, 8.317838668823242),
   rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(1, 1, 1)
+  scale: new Vector3(1.5258851051330566, 1, 1)
 })
-rainLight12.addComponentOrReplace(transform31)
+rainLight12.addComponentOrReplace(transform28)
 
 const rainLight13 = new Entity('rainLight13')
 engine.addEntity(rainLight13)
 rainLight13.setParent(_scene)
-const transform32 = new Transform({
-  position: new Vector3(7.998897552490234, 2, 7.5033369064331055),
+const transform29 = new Transform({
+  position: new Vector3(10.380905151367188, 2, 7.310656547546387),
   rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(1, 1, 1)
+  scale: new Vector3(1.5258851051330566, 1, 1)
 })
-rainLight13.addComponentOrReplace(transform32)
+rainLight13.addComponentOrReplace(transform29)
 
 const rainLight14 = new Entity('rainLight14')
 engine.addEntity(rainLight14)
 rainLight14.setParent(_scene)
-const transform33 = new Transform({
-  position: new Vector3(7.990724563598633, 2, 8.510519027709961),
+const transform30 = new Transform({
+  position: new Vector3(10.368432998657227, 2, 8.317838668823242),
   rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(1, 1, 1)
+  scale: new Vector3(1.5258851051330566, 1, 1)
 })
-rainLight14.addComponentOrReplace(transform33)
+rainLight14.addComponentOrReplace(transform30)
 
 const rainLight15 = new Entity('rainLight15')
 engine.addEntity(rainLight15)
 rainLight15.setParent(_scene)
-const transform34 = new Transform({
-  position: new Vector3(6.498897552490234, 2, 7.5033369064331055),
+const transform31 = new Transform({
+  position: new Vector3(8.092077255249023, 2, 7.310656547546387),
   rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(1, 1, 1)
+  scale: new Vector3(1.5258851051330566, 1, 1)
 })
-rainLight15.addComponentOrReplace(transform34)
-
-const rainLight16 = new Entity('rainLight16')
-engine.addEntity(rainLight16)
-rainLight16.setParent(_scene)
-const transform35 = new Transform({
-  position: new Vector3(9.498897552490234, 2, 7.5033369064331055),
-  rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(1, 1, 1)
-})
-rainLight16.addComponentOrReplace(transform35)
-
-const rainLight17 = new Entity('rainLight17')
-engine.addEntity(rainLight17)
-rainLight17.setParent(_scene)
-const transform36 = new Transform({
-  position: new Vector3(9.499808311462402, 2, 6.508827209472656),
-  rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(1, 1, 1)
-})
-rainLight17.addComponentOrReplace(transform36)
+rainLight15.addComponentOrReplace(transform31)
 
 const rainLight18 = new Entity('rainLight18')
 engine.addEntity(rainLight18)
 rainLight18.setParent(_scene)
-const transform37 = new Transform({
-  position: new Vector3(4.999808311462402, 2, 6.508827209472656),
+const transform32 = new Transform({
+  position: new Vector3(5.8046393394470215, 2, 6.3161468505859375),
   rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(1, 1, 1)
+  scale: new Vector3(1.5258851051330566, 1, 1)
 })
-rainLight18.addComponentOrReplace(transform37)
+rainLight18.addComponentOrReplace(transform32)
 
 const rainLight19 = new Entity('rainLight19')
 engine.addEntity(rainLight19)
 rainLight19.setParent(_scene)
-const transform38 = new Transform({
-  position: new Vector3(5.007981300354004, 2, 5.501645088195801),
+const transform33 = new Transform({
+  position: new Vector3(5.817110061645508, 2, 5.308964729309082),
   rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(1, 1, 1)
+  scale: new Vector3(1.5258851051330566, 1, 1)
 })
-rainLight19.addComponentOrReplace(transform38)
+rainLight19.addComponentOrReplace(transform33)
 
 const rainLight20 = new Entity('rainLight20')
 engine.addEntity(rainLight20)
 rainLight20.setParent(_scene)
-const transform39 = new Transform({
-  position: new Vector3(6.499808311462402, 2, 6.508827209472656),
+const transform34 = new Transform({
+  position: new Vector3(8.093467712402344, 2, 6.3161468505859375),
   rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(1, 1, 1)
+  scale: new Vector3(1.5258851051330566, 1, 1)
 })
-rainLight20.addComponentOrReplace(transform39)
+rainLight20.addComponentOrReplace(transform34)
 
 const rainLight21 = new Entity('rainLight21')
 engine.addEntity(rainLight21)
 rainLight21.setParent(_scene)
-const transform40 = new Transform({
-  position: new Vector3(8.007981300354004, 2, 5.501645088195801),
+const transform35 = new Transform({
+  position: new Vector3(10.394765853881836, 2, 5.308964729309082),
   rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(1, 1, 1)
+  scale: new Vector3(1.5258851051330566, 1, 1)
 })
-rainLight21.addComponentOrReplace(transform40)
+rainLight21.addComponentOrReplace(transform35)
 
 const rainLight22 = new Entity('rainLight22')
 engine.addEntity(rainLight22)
 rainLight22.setParent(_scene)
-const transform41 = new Transform({
-  position: new Vector3(7.999808311462402, 2, 6.508827209472656),
+const transform36 = new Transform({
+  position: new Vector3(10.382293701171875, 2, 6.3161468505859375),
   rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(1, 1, 1)
+  scale: new Vector3(1.5258851051330566, 1, 1)
 })
-rainLight22.addComponentOrReplace(transform41)
+rainLight22.addComponentOrReplace(transform36)
 
 const rainLight23 = new Entity('rainLight23')
 engine.addEntity(rainLight23)
 rainLight23.setParent(_scene)
-const transform42 = new Transform({
-  position: new Vector3(6.507981300354004, 2, 5.501645088195801),
+const transform37 = new Transform({
+  position: new Vector3(8.105937957763672, 2, 5.308964729309082),
   rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(1, 1, 1)
+  scale: new Vector3(1.5258851051330566, 1, 1)
 })
-rainLight23.addComponentOrReplace(transform42)
-
-const rainLight24 = new Entity('rainLight24')
-engine.addEntity(rainLight24)
-rainLight24.setParent(_scene)
-const transform43 = new Transform({
-  position: new Vector3(9.507980346679688, 2, 5.501645088195801),
-  rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(1, 1, 1)
-})
-rainLight24.addComponentOrReplace(transform43)
-
-const rainLight25 = new Entity('rainLight25')
-engine.addEntity(rainLight25)
-rainLight25.setParent(_scene)
-const transform44 = new Transform({
-  position: new Vector3(10.984171867370605, 2, 5.492690086364746),
-  rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(1, 1, 1)
-})
-rainLight25.addComponentOrReplace(transform44)
-
-const rainLight26 = new Entity('rainLight26')
-engine.addEntity(rainLight26)
-rainLight26.setParent(_scene)
-const transform45 = new Transform({
-  position: new Vector3(10.975089073181152, 2, 7.494381904602051),
-  rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(1, 1, 1)
-})
-rainLight26.addComponentOrReplace(transform45)
-
-const rainLight27 = new Entity('rainLight27')
-engine.addEntity(rainLight27)
-rainLight27.setParent(_scene)
-const transform46 = new Transform({
-  position: new Vector3(10.97599983215332, 2, 6.499872207641602),
-  rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(1, 1, 1)
-})
-rainLight27.addComponentOrReplace(transform46)
-
-const rainLight28 = new Entity('rainLight28')
-engine.addEntity(rainLight28)
-rainLight28.setParent(_scene)
-const transform47 = new Transform({
-  position: new Vector3(10.98436450958252, 2, 9.48386287689209),
-  rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(1, 1, 1)
-})
-rainLight28.addComponentOrReplace(transform47)
-
-const rainLight29 = new Entity('rainLight29')
-engine.addEntity(rainLight29)
-rainLight29.setParent(_scene)
-const transform48 = new Transform({
-  position: new Vector3(10.976191520690918, 2, 10.491044998168945),
-  rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(1, 1, 1)
-})
-rainLight29.addComponentOrReplace(transform48)
-
-const rainLight30 = new Entity('rainLight30')
-engine.addEntity(rainLight30)
-rainLight30.setParent(_scene)
-const transform49 = new Transform({
-  position: new Vector3(10.96691608428955, 2, 8.501564025878906),
-  rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(1, 1, 1)
-})
-rainLight30.addComponentOrReplace(transform49)
+rainLight23.addComponentOrReplace(transform37)
 
 const channelId = Math.random().toString(16).slice(2)
 const channelBus = new MessageBus()
@@ -7413,30 +7293,18 @@ script2.spawn(tableLampLight, {"startOn":true,"clickable":true}, createChannel(c
 script3.spawn(rainLight, {"startOn":true,"clickable":true}, createChannel(channelId, rainLight, channelBus))
 script3.spawn(rainLight2, {"startOn":true,"clickable":true}, createChannel(channelId, rainLight2, channelBus))
 script3.spawn(rainLight3, {"startOn":true,"clickable":true}, createChannel(channelId, rainLight3, channelBus))
-script3.spawn(rainLight4, {"startOn":true,"clickable":true}, createChannel(channelId, rainLight4, channelBus))
 script3.spawn(rainLight5, {"startOn":true,"clickable":true}, createChannel(channelId, rainLight5, channelBus))
 script3.spawn(rainLight6, {"startOn":true,"clickable":true}, createChannel(channelId, rainLight6, channelBus))
 script3.spawn(rainLight7, {"startOn":true,"clickable":true}, createChannel(channelId, rainLight7, channelBus))
-script3.spawn(rainLight8, {"startOn":true,"clickable":true}, createChannel(channelId, rainLight8, channelBus))
-script3.spawn(rainLight9, {"startOn":true,"clickable":true}, createChannel(channelId, rainLight9, channelBus))
 script3.spawn(rainLight10, {"startOn":true,"clickable":true}, createChannel(channelId, rainLight10, channelBus))
 script3.spawn(rainLight11, {"startOn":true,"clickable":true}, createChannel(channelId, rainLight11, channelBus))
 script3.spawn(rainLight12, {"startOn":true,"clickable":true}, createChannel(channelId, rainLight12, channelBus))
 script3.spawn(rainLight13, {"startOn":true,"clickable":true}, createChannel(channelId, rainLight13, channelBus))
 script3.spawn(rainLight14, {"startOn":true,"clickable":true}, createChannel(channelId, rainLight14, channelBus))
 script3.spawn(rainLight15, {"startOn":true,"clickable":true}, createChannel(channelId, rainLight15, channelBus))
-script3.spawn(rainLight16, {"startOn":true,"clickable":true}, createChannel(channelId, rainLight16, channelBus))
-script3.spawn(rainLight17, {"startOn":true,"clickable":true}, createChannel(channelId, rainLight17, channelBus))
 script3.spawn(rainLight18, {"startOn":true,"clickable":true}, createChannel(channelId, rainLight18, channelBus))
 script3.spawn(rainLight19, {"startOn":true,"clickable":true}, createChannel(channelId, rainLight19, channelBus))
 script3.spawn(rainLight20, {"startOn":true,"clickable":true}, createChannel(channelId, rainLight20, channelBus))
 script3.spawn(rainLight21, {"startOn":true,"clickable":true}, createChannel(channelId, rainLight21, channelBus))
 script3.spawn(rainLight22, {"startOn":true,"clickable":true}, createChannel(channelId, rainLight22, channelBus))
 script3.spawn(rainLight23, {"startOn":true,"clickable":true}, createChannel(channelId, rainLight23, channelBus))
-script3.spawn(rainLight24, {"startOn":true,"clickable":true}, createChannel(channelId, rainLight24, channelBus))
-script3.spawn(rainLight25, {"startOn":true,"clickable":true}, createChannel(channelId, rainLight25, channelBus))
-script3.spawn(rainLight26, {"startOn":true,"clickable":true}, createChannel(channelId, rainLight26, channelBus))
-script3.spawn(rainLight27, {"startOn":true,"clickable":true}, createChannel(channelId, rainLight27, channelBus))
-script3.spawn(rainLight28, {"startOn":true,"clickable":true}, createChannel(channelId, rainLight28, channelBus))
-script3.spawn(rainLight29, {"startOn":true,"clickable":true}, createChannel(channelId, rainLight29, channelBus))
-script3.spawn(rainLight30, {"startOn":true,"clickable":true}, createChannel(channelId, rainLight30, channelBus))
