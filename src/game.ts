@@ -396,9 +396,9 @@ const imageFromURL = new Entity('imageFromURL')
 engine.addEntity(imageFromURL)
 imageFromURL.setParent(_scene)
 const transform34 = new Transform({
-  position: new Vector3(0, 0.045874595642089844, 8),
+  position: new Vector3(0, 0.045874595642089844, 6.778176784515381),
   rotation: new Quaternion(-0.5000000596046448, -0.5000000596046448, -0.49999988079071045, 0.5),
-  scale: new Vector3(16.000001907348633, 15.855430603027344, 1.0000020265579224)
+  scale: new Vector3(12.725432395935059, 12.236347198486328, 1.0000020265579224)
 })
 imageFromURL.addComponentOrReplace(transform34)
 
@@ -827,6 +827,16 @@ const transform73 = new Transform({
 })
 messageBubble.addComponentOrReplace(transform73)
 
+const imageFromURL4 = new Entity('imageFromURL4')
+engine.addEntity(imageFromURL4)
+imageFromURL4.setParent(_scene)
+const transform74 = new Transform({
+  position: new Vector3(14.129987716674805, 1.1490886211395264, 15.678303718566895),
+  rotation: new Quaternion(8.491404711061874e-16, -1, 1.1920927533992653e-7, 0),
+  scale: new Vector3(2.2500083446502686, 3, 1.0000033378601074)
+})
+imageFromURL4.addComponentOrReplace(transform74)
+
 const channelId = Math.random().toString(16).slice(2)
 const channelBus = new MessageBus()
 const inventory = createInventory(UICanvas, UIContainerStack, UIImage)
@@ -872,7 +882,7 @@ script4.spawn(imageFromURL, {"image":"https://i.imgur.com/iqvATL4.jpg"}, createC
 script5.spawn(verticalBlackPad, {"distance":8,"speed":7,"autoStart":true,"onReachEnd":[{"entityName":"verticalBlackPad","actionId":"goToStart","values":{}}],"onReachStart":[{"entityName":"verticalBlackPad","actionId":"goToEnd","values":{}}]}, createChannel(channelId, verticalBlackPad, channelBus))
 script6.spawn(teleport, {"x":"-140","y":"-117","name":"DOTBONGBILLIONAIRES"}, createChannel(channelId, teleport, channelBus))
 script4.spawn(imageFromURL2, {"image":"https://i.imgur.com/VRJZwwS.jpg"}, createChannel(channelId, imageFromURL2, channelBus))
-script4.spawn(imageFromURL3, {"image":"https://i.imgur.com/7sr6hon.jpg"}, createChannel(channelId, imageFromURL3, channelBus))
+script4.spawn(imageFromURL3, {"image":"https://i.imgur.com/LKwndSb.jpg"}, createChannel(channelId, imageFromURL3, channelBus))
 script3.spawn(rainLight, {"startOn":true,"clickable":true}, createChannel(channelId, rainLight, channelBus))
 script3.spawn(rainLight2, {"startOn":true,"clickable":true}, createChannel(channelId, rainLight2, channelBus))
 script3.spawn(rainLight3, {"startOn":true,"clickable":true}, createChannel(channelId, rainLight3, channelBus))
@@ -893,3 +903,4 @@ script3.spawn(rainLight19, {"startOn":true,"clickable":true}, createChannel(chan
 script3.spawn(rainLight21, {"startOn":true,"clickable":true}, createChannel(channelId, rainLight21, channelBus))
 script7.spawn(woodenDoor, {"onClickText":"Open/Close","onClick":[{"entityName":"woodenDoor","actionId":"open","values":{}}],"onOpen":[{"entityName":"verticalBlackPad","actionId":"goToEnd","values":{}}]}, createChannel(channelId, woodenDoor, channelBus))
 script8.spawn(messageBubble, {"text":"Wow, you really know how to work that chair! What else..?","fontSize":20}, createChannel(channelId, messageBubble, channelBus))
+script4.spawn(imageFromURL4, {"image":"https://i.imgur.com/7sr6hon.jpg"}, createChannel(channelId, imageFromURL4, channelBus))
