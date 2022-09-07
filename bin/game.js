@@ -6837,10 +6837,10 @@ import Script1 from "../e25d12ec-e349-4c76-9826-1094458e3982/src/item"
 import Script2 from "../aff6ff37-d8c9-46f5-a9ac-14e524486ffe/src/item"
 import Script3 from "../85cf3207-2792-4349-9938-21fd82ea2168/src/item"
 import Script4 from "../7d669c08-c354-45e4-b3a3-c915c8fd6b6e/src/item"
-import Script5 from "../f7573b6c-f5d3-403c-ad74-2657adbe4a54/src/item"
-import Script6 from "../7abe1ec8-bd5c-4ffe-b318-f17a330296bf/src/item"
-import Script7 from "../0ee46c79-338c-445a-a506-ea26d80fbe46/src/item"
-import Script8 from "../e7a6c753-ea84-4c8e-bb94-4523407a5d55/src/item"
+import Script5 from "../7abe1ec8-bd5c-4ffe-b318-f17a330296bf/src/item"
+import Script6 from "../0ee46c79-338c-445a-a506-ea26d80fbe46/src/item"
+import Script7 from "../e7a6c753-ea84-4c8e-bb94-4523407a5d55/src/item"
+import Script8 from "../7cd4d0bc-54d4-4f64-8ab2-6f18f41f03a3/src/item"
 
 const _scene = new Entity('_scene')
 engine.addEntity(_scene)
@@ -7343,120 +7343,120 @@ const transform42 = new Transform({
 })
 wallPlainRed2.addComponentOrReplace(transform42)
 
-const verticalHallwayDoo = new Entity('verticalHallwayDoo')
-engine.addEntity(verticalHallwayDoo)
-verticalHallwayDoo.setParent(_scene)
-const transform43 = new Transform({
-  position: new Vector3(9.144351959228516, 0, 14.534652709960938),
-  rotation: new Quaternion(5.231434724436643e-15, 0.7071067690849304, -8.429370268459024e-8, -0.7071068286895752),
-  scale: new Vector3(0.37136098742485046, 1.2103440761566162, 0.9999998807907104)
-})
-verticalHallwayDoo.addComponentOrReplace(transform43)
-
 const verticalBlackPad = new Entity('verticalBlackPad')
 engine.addEntity(verticalBlackPad)
 verticalBlackPad.setParent(_scene)
-const transform44 = new Transform({
+const transform43 = new Transform({
   position: new Vector3(2, 0, 14.591475486755371),
   rotation: new Quaternion(0, 0, 0, 1),
   scale: new Vector3(1, 1, 1)
 })
-verticalBlackPad.addComponentOrReplace(transform44)
+verticalBlackPad.addComponentOrReplace(transform43)
 
 const teleport = new Entity('teleport')
 engine.addEntity(teleport)
 teleport.setParent(_scene)
-const transform45 = new Transform({
+const transform44 = new Transform({
   position: new Vector3(6, 0, 10.906084060668945),
   rotation: new Quaternion(0, 0, 0, 1),
   scale: new Vector3(1, 1, 1)
 })
-teleport.addComponentOrReplace(transform45)
+teleport.addComponentOrReplace(transform44)
 
 const imageFromURL2 = new Entity('imageFromURL2')
 engine.addEntity(imageFromURL2)
 imageFromURL2.setParent(_scene)
-const transform46 = new Transform({
+const transform45 = new Transform({
   position: new Vector3(6, 0, 13.127887725830078),
   rotation: new Quaternion(-5.837277581059123e-15, 1, -1.1920928244535389e-7, 0),
   scale: new Vector3(11.340924263000488, 6, 1.0000003576278687)
 })
-imageFromURL2.addComponentOrReplace(transform46)
+imageFromURL2.addComponentOrReplace(transform45)
 
 const wallPlainBlack = new Entity('wallPlainBlack')
 engine.addEntity(wallPlainBlack)
 wallPlainBlack.setParent(_scene)
-const transform47 = new Transform({
+const transform46 = new Transform({
   position: new Vector3(9.000000953674316, 0, 15.693574905395508),
   rotation: new Quaternion(-5.837277581059123e-15, 1, -1.1920928244535389e-7, 0),
   scale: new Vector3(3.5, 1.5, 1)
 })
-wallPlainBlack.addComponentOrReplace(transform47)
+wallPlainBlack.addComponentOrReplace(transform46)
 wallPlainBlack.addComponentOrReplace(gltfShape4)
 
 const wallPlainBlack3 = new Entity('wallPlainBlack3')
 engine.addEntity(wallPlainBlack3)
 wallPlainBlack3.setParent(_scene)
 wallPlainBlack3.addComponentOrReplace(gltfShape4)
-const transform48 = new Transform({
+const transform47 = new Transform({
   position: new Vector3(8.92425537109375, 0, 13.162420272827148),
   rotation: new Quaternion(-5.837277581059123e-15, 1, -1.1920928244535389e-7, 0),
   scale: new Vector3(1.7812745571136475, 1.5, 1)
 })
-wallPlainBlack3.addComponentOrReplace(transform48)
+wallPlainBlack3.addComponentOrReplace(transform47)
 
 const wallPlainBlack4 = new Entity('wallPlainBlack4')
 engine.addEntity(wallPlainBlack4)
 wallPlainBlack4.setParent(_scene)
 wallPlainBlack4.addComponentOrReplace(gltfShape4)
-const transform49 = new Transform({
+const transform48 = new Transform({
   position: new Vector3(15.68528938293457, 0, 15.85258674621582),
   rotation: new Quaternion(-4.127578846475997e-15, 0.7071068286895752, -8.429368847373553e-8, -0.7071068286895752),
   scale: new Vector3(7.842257499694824, 1.5, 1.0000009536743164)
 })
-wallPlainBlack4.addComponentOrReplace(transform49)
+wallPlainBlack4.addComponentOrReplace(transform48)
 
 const wallPlainBlack5 = new Entity('wallPlainBlack5')
 engine.addEntity(wallPlainBlack5)
 wallPlainBlack5.setParent(_scene)
 wallPlainBlack5.addComponentOrReplace(gltfShape4)
-const transform50 = new Transform({
+const transform49 = new Transform({
   position: new Vector3(12.18528938293457, 0, 13.16261100769043),
   rotation: new Quaternion(-4.127578846475997e-15, 0.7071068286895752, -8.429368847373553e-8, -0.7071068286895752),
   scale: new Vector3(4.879998683929443, 1.5, 1.000002384185791)
 })
-wallPlainBlack5.addComponentOrReplace(transform50)
+wallPlainBlack5.addComponentOrReplace(transform49)
 
 const wallPlainBlack6 = new Entity('wallPlainBlack6')
 engine.addEntity(wallPlainBlack6)
 wallPlainBlack6.setParent(_scene)
 wallPlainBlack6.addComponentOrReplace(gltfShape4)
-const transform51 = new Transform({
+const transform50 = new Transform({
   position: new Vector3(15.985000610351562, 0, 0.35370635986328125),
   rotation: new Quaternion(1.7226053991169134e-15, 0, 6.0168951526891334e-15, -1),
   scale: new Vector3(7.9713239669799805, 1.5, 1.0000026226043701)
 })
-wallPlainBlack6.addComponentOrReplace(transform51)
+wallPlainBlack6.addComponentOrReplace(transform50)
 
 const imageFromURL3 = new Entity('imageFromURL3')
 engine.addEntity(imageFromURL3)
 imageFromURL3.setParent(_scene)
-const transform52 = new Transform({
+const transform51 = new Transform({
   position: new Vector3(15.629987716674805, 1.1490886211395264, 2),
   rotation: new Quaternion(2.7402813921668283e-15, -0.7071068286895752, 8.429369557916289e-8, 0.7071068286895752),
   scale: new Vector3(2.250007390975952, 3, 1.0000028610229492)
 })
-imageFromURL3.addComponentOrReplace(transform52)
+imageFromURL3.addComponentOrReplace(transform51)
 
 const messageBubble = new Entity('messageBubble')
 engine.addEntity(messageBubble)
 messageBubble.setParent(_scene)
-const transform53 = new Transform({
+const transform52 = new Transform({
   position: new Vector3(1.3452062606811523, 6.5, 5.8592634201049805),
   rotation: new Quaternion(-4.0590826801633305e-15, -0.8314696550369263, 9.911889975455779e-8, 0.5555702447891235),
   scale: new Vector3(1.0000033378601074, 1, 1.0000033378601074)
 })
-messageBubble.addComponentOrReplace(transform53)
+messageBubble.addComponentOrReplace(transform52)
+
+const cyberpunkDoor = new Entity('cyberpunkDoor')
+engine.addEntity(cyberpunkDoor)
+cyberpunkDoor.setParent(_scene)
+const transform53 = new Transform({
+  position: new Vector3(9.031012535095215, 0, 13.447022438049316),
+  rotation: new Quaternion(2.3711509982587455e-15, -0.7071067690849304, 8.429368847373553e-8, -0.70710688829422),
+  scale: new Vector3(1.141465663909912, 1.5, 1.0000016689300537)
+})
+cyberpunkDoor.addComponentOrReplace(transform53)
 
 const channelId = Math.random().toString(16).slice(2)
 const channelBus = new MessageBus()
@@ -7500,9 +7500,9 @@ script3.spawn(rainLight35, {"startOn":true,"clickable":true}, createChannel(chan
 script3.spawn(rainLight36, {"startOn":true,"clickable":true}, createChannel(channelId, rainLight36, channelBus))
 script3.spawn(rainLight37, {"startOn":true,"clickable":true}, createChannel(channelId, rainLight37, channelBus))
 script4.spawn(imageFromURL, {"image":"https://i.imgur.com/VaIbxug.jpg"}, createChannel(channelId, imageFromURL, channelBus))
-script5.spawn(verticalHallwayDoo, {"onOpen":[]}, createChannel(channelId, verticalHallwayDoo, channelBus))
-script6.spawn(verticalBlackPad, {"distance":7,"speed":6,"autoStart":true,"onReachEnd":[{"entityName":"verticalBlackPad","actionId":"goToStart","values":{}}],"onReachStart":[{"entityName":"verticalBlackPad","actionId":"goToEnd","values":{}}]}, createChannel(channelId, verticalBlackPad, channelBus))
-script7.spawn(teleport, {"x":"-140","y":"-117","name":"DOTBONGBILLIONAIRES"}, createChannel(channelId, teleport, channelBus))
+script5.spawn(verticalBlackPad, {"distance":7,"speed":6,"autoStart":true,"onReachEnd":[{"entityName":"verticalBlackPad","actionId":"goToStart","values":{}}],"onReachStart":[{"entityName":"verticalBlackPad","actionId":"goToEnd","values":{}}]}, createChannel(channelId, verticalBlackPad, channelBus))
+script6.spawn(teleport, {"x":"-140","y":"-117","name":"DOTBONGBILLIONAIRES"}, createChannel(channelId, teleport, channelBus))
 script4.spawn(imageFromURL2, {"image":"https://i.imgur.com/VRJZwwS.jpg"}, createChannel(channelId, imageFromURL2, channelBus))
 script4.spawn(imageFromURL3, {"image":"https://i.imgur.com/7sr6hon.jpg"}, createChannel(channelId, imageFromURL3, channelBus))
-script8.spawn(messageBubble, {"text":"Get comfy and leave us a good pic!","fontSize":17}, createChannel(channelId, messageBubble, channelBus))
+script7.spawn(messageBubble, {"text":"Get comfy and leave us a good pic!","fontSize":17}, createChannel(channelId, messageBubble, channelBus))
+script8.spawn(cyberpunkDoor, {"onClickText":"Open/Close","onClick":[{"entityName":"cyberpunkDoor","actionId":"open","values":{}}],"onOpen":[{"entityName":"verticalBlackPad","actionId":"goToEnd","values":{}}]}, createChannel(channelId, cyberpunkDoor, channelBus))
