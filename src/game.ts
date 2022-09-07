@@ -342,7 +342,7 @@ barM2.addComponentOrReplace(gltfShape5)
 const transform30 = new Transform({
   position: new Vector3(15.590631484985352, 6.033209800720215, 4.280072212219238),
   rotation: new Quaternion(-1.5014858600494022e-15, -0.7071068286895752, 8.429369557916289e-8, 0.7071067690849304),
-  scale: new Vector3(1.2298736572265625, 0.9975488185882568, 0.7499998807907104)
+  scale: new Vector3(1.2298736572265625, 0.7703108787536621, 0.7499998807907104)
 })
 barM2.addComponentOrReplace(transform30)
 
@@ -489,7 +489,7 @@ verticalBlackPad.setParent(_scene)
 const transform41 = new Transform({
   position: new Vector3(2, 0, 14.591475486755371),
   rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(1, 1, 1)
+  scale: new Vector3(1.5, 1, 1)
 })
 verticalBlackPad.addComponentOrReplace(transform41)
 
@@ -805,6 +805,28 @@ const transform71 = new Transform({
 })
 wallPlainBlack8.addComponentOrReplace(transform71)
 
+const floorBlackSmall2 = new Entity('floorBlackSmall2')
+engine.addEntity(floorBlackSmall2)
+floorBlackSmall2.setParent(_scene)
+const transform72 = new Transform({
+  position: new Vector3(16, 0.0439528226852417, 16),
+  rotation: new Quaternion(0, 0, 0, 1),
+  scale: new Vector3(1.7936139106750488, 1, 7.952217102050781)
+})
+floorBlackSmall2.addComponentOrReplace(transform72)
+floorBlackSmall2.addComponentOrReplace(gltfShape13)
+
+const floorBlackSmall3 = new Entity('floorBlackSmall3')
+engine.addEntity(floorBlackSmall3)
+floorBlackSmall3.setParent(_scene)
+const transform73 = new Transform({
+  position: new Vector3(12.452266693115234, 0, 16),
+  rotation: new Quaternion(0, 0, 0, 1),
+  scale: new Vector3(6.179222106933594, 1, 1.2927701473236084)
+})
+floorBlackSmall3.addComponentOrReplace(transform73)
+floorBlackSmall3.addComponentOrReplace(gltfShape13)
+
 const channelId = Math.random().toString(16).slice(2)
 const channelBus = new MessageBus()
 const inventory = createInventory(UICanvas, UIContainerStack, UIImage)
@@ -845,7 +867,7 @@ script3.spawn(rainLight35, {"startOn":true,"clickable":true}, createChannel(chan
 script3.spawn(rainLight36, {"startOn":true,"clickable":true}, createChannel(channelId, rainLight36, channelBus))
 script3.spawn(rainLight37, {"startOn":true,"clickable":true}, createChannel(channelId, rainLight37, channelBus))
 script4.spawn(imageFromURL, {"image":"https://i.imgur.com/iqvATL4.jpg"}, createChannel(channelId, imageFromURL, channelBus))
-script5.spawn(verticalBlackPad, {"distance":8,"speed":6,"autoStart":true,"onReachEnd":[{"entityName":"verticalBlackPad","actionId":"goToStart","values":{}}],"onReachStart":[{"entityName":"verticalBlackPad","actionId":"goToEnd","values":{}}]}, createChannel(channelId, verticalBlackPad, channelBus))
+script5.spawn(verticalBlackPad, {"distance":8,"speed":7,"autoStart":true,"onReachEnd":[{"entityName":"verticalBlackPad","actionId":"goToStart","values":{}}],"onReachStart":[{"entityName":"verticalBlackPad","actionId":"goToEnd","values":{}}]}, createChannel(channelId, verticalBlackPad, channelBus))
 script6.spawn(teleport, {"x":"-140","y":"-117","name":"DOTBONGBILLIONAIRES"}, createChannel(channelId, teleport, channelBus))
 script4.spawn(imageFromURL2, {"image":"https://i.imgur.com/VRJZwwS.jpg"}, createChannel(channelId, imageFromURL2, channelBus))
 script4.spawn(imageFromURL3, {"image":"https://i.imgur.com/7sr6hon.jpg"}, createChannel(channelId, imageFromURL3, channelBus))
