@@ -17,21 +17,10 @@
     ],
     "base": "0,0"
   },
-  "communications": {
-    "type": "webrtc",
-    "signalling": "https://signalling-01.decentraland.org"
-  },
-  "policy": {
-    "contentRating": "E",
-    "fly": true,
-    "voiceEnabled": true,
-    "blacklist": [],
-    "teleportPosition": ""
-  },
   "source": {
     "version": 1,
     "origin": "builder",
-    "projectId": "021e1dc2-7d45-4e3d-a5d9-914bb7a08da3",
+    "projectId": "9bedb135-f147-47d9-993c-c7f546b2925c",
     "point": {
       "x": 0,
       "y": 0
