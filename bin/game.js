@@ -7644,7 +7644,7 @@ floorBlackSmall2.setParent(_scene)
 const transform72 = new Transform({
   position: new Vector3(16, 0.0439528226852417, 16),
   rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(1.7936139106750488, 1, 7.952217102050781)
+  scale: new Vector3(1.9106186628341675, 1, 7.952217102050781)
 })
 floorBlackSmall2.addComponentOrReplace(transform72)
 floorBlackSmall2.addComponentOrReplace(gltfShape13)
@@ -7659,6 +7659,17 @@ const transform73 = new Transform({
 })
 floorBlackSmall3.addComponentOrReplace(transform73)
 floorBlackSmall3.addComponentOrReplace(gltfShape13)
+
+const floorBlackSmall4 = new Entity('floorBlackSmall4')
+engine.addEntity(floorBlackSmall4)
+floorBlackSmall4.setParent(_scene)
+const transform74 = new Transform({
+  position: new Vector3(8.70653247833252, 0.18736529350280762, 16),
+  rotation: new Quaternion(0, 0, 0, 1),
+  scale: new Vector3(4.330700874328613, 1, 1.2886685132980347)
+})
+floorBlackSmall4.addComponentOrReplace(transform74)
+floorBlackSmall4.addComponentOrReplace(gltfShape13)
 
 const channelId = Math.random().toString(16).slice(2)
 const channelBus = new MessageBus()
