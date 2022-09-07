@@ -514,8 +514,8 @@ const verticalHallwayDoo = new Entity('verticalHallwayDoo')
 engine.addEntity(verticalHallwayDoo)
 verticalHallwayDoo.setParent(_scene)
 const transform43 = new Transform({
-  position: new Vector3(8.88856315612793, 0, 14.534652709960938),
-  rotation: new Quaternion(-1.9728792828333256e-15, 0.7071068286895752, -8.429368847373553e-8, 0.7071067690849304),
+  position: new Vector3(9.144351959228516, 0, 14.534652709960938),
+  rotation: new Quaternion(5.231434724436643e-15, 0.7071067690849304, -8.429370268459024e-8, -0.7071068286895752),
   scale: new Vector3(0.37136098742485046, 1.2103440761566162, 0.9999998807907104)
 })
 verticalHallwayDoo.addComponentOrReplace(transform43)
@@ -534,7 +534,7 @@ const teleport = new Entity('teleport')
 engine.addEntity(teleport)
 teleport.setParent(_scene)
 const transform45 = new Transform({
-  position: new Vector3(4.5, 0, 10.906084060668945),
+  position: new Vector3(6, 0, 10.906084060668945),
   rotation: new Quaternion(0, 0, 0, 1),
   scale: new Vector3(1, 1, 1)
 })
@@ -544,9 +544,9 @@ const imageFromURL2 = new Entity('imageFromURL2')
 engine.addEntity(imageFromURL2)
 imageFromURL2.setParent(_scene)
 const transform46 = new Transform({
-  position: new Vector3(4.5, 0, 13.127887725830078),
+  position: new Vector3(6, 0, 13.127887725830078),
   rotation: new Quaternion(-5.837277581059123e-15, 1, -1.1920928244535389e-7, 0),
-  scale: new Vector3(8.997129440307617, 6, 1.0000005960464478)
+  scale: new Vector3(11.340924263000488, 6, 1.0000003576278687)
 })
 imageFromURL2.addComponentOrReplace(transform46)
 
@@ -601,7 +601,7 @@ wallPlainBlack6.addComponentOrReplace(gltfShape4)
 const transform51 = new Transform({
   position: new Vector3(15.985000610351562, 0, 0.35370635986328125),
   rotation: new Quaternion(1.7226053991169134e-15, 0, 6.0168951526891334e-15, -1),
-  scale: new Vector3(4.220644474029541, 1.5, 1.0000026226043701)
+  scale: new Vector3(7.9713239669799805, 1.5, 1.0000026226043701)
 })
 wallPlainBlack6.addComponentOrReplace(transform51)
 
@@ -666,10 +666,10 @@ script3.spawn(rainLight34, {"startOn":true,"clickable":true}, createChannel(chan
 script3.spawn(rainLight35, {"startOn":true,"clickable":true}, createChannel(channelId, rainLight35, channelBus))
 script3.spawn(rainLight36, {"startOn":true,"clickable":true}, createChannel(channelId, rainLight36, channelBus))
 script3.spawn(rainLight37, {"startOn":true,"clickable":true}, createChannel(channelId, rainLight37, channelBus))
-script4.spawn(imageFromURL, {"image":"https://i.imgur.com/n5fQJjJ.jpg"}, createChannel(channelId, imageFromURL, channelBus))
-script5.spawn(verticalHallwayDoo, {}, createChannel(channelId, verticalHallwayDoo, channelBus))
+script4.spawn(imageFromURL, {"image":"https://i.imgur.com/VaIbxug.jpg"}, createChannel(channelId, imageFromURL, channelBus))
+script5.spawn(verticalHallwayDoo, {"onOpen":[]}, createChannel(channelId, verticalHallwayDoo, channelBus))
 script6.spawn(verticalBlackPad, {"distance":7,"speed":6,"autoStart":true,"onReachEnd":[{"entityName":"verticalBlackPad","actionId":"goToStart","values":{}}],"onReachStart":[{"entityName":"verticalBlackPad","actionId":"goToEnd","values":{}}]}, createChannel(channelId, verticalBlackPad, channelBus))
 script7.spawn(teleport, {"x":"-140","y":"-117","name":"DOTBONGBILLIONAIRES"}, createChannel(channelId, teleport, channelBus))
-script4.spawn(imageFromURL2, {"image":"https://i.imgur.com/tohOymj.jpg"}, createChannel(channelId, imageFromURL2, channelBus))
+script4.spawn(imageFromURL2, {"image":"https://i.imgur.com/VRJZwwS.jpg"}, createChannel(channelId, imageFromURL2, channelBus))
 script4.spawn(imageFromURL3, {"image":"https://i.imgur.com/7sr6hon.jpg"}, createChannel(channelId, imageFromURL3, channelBus))
 script8.spawn(messageBubble, {"text":"Get comfy and leave us a good pic!","fontSize":17}, createChannel(channelId, messageBubble, channelBus))
