@@ -7174,9 +7174,9 @@ gltfShape5.isPointerBlocker = true
 gltfShape5.visible = true
 barM2.addComponentOrReplace(gltfShape5)
 const transform30 = new Transform({
-  position: new Vector3(15.590631484985352, 6.011340618133545, 4.280072212219238),
+  position: new Vector3(15.590631484985352, 6.033209800720215, 4.280072212219238),
   rotation: new Quaternion(-1.5014858600494022e-15, -0.7071068286895752, 8.429369557916289e-8, 0.7071067690849304),
-  scale: new Vector3(1.2298736572265625, 0.794169545173645, 0.7499998807907104)
+  scale: new Vector3(1.2298736572265625, 0.9975488185882568, 0.7499998807907104)
 })
 barM2.addComponentOrReplace(transform30)
 
@@ -7261,9 +7261,9 @@ const bedKing = new Entity('bedKing')
 engine.addEntity(bedKing)
 bedKing.setParent(_scene)
 const transform37 = new Transform({
-  position: new Vector3(9.673964500427246, 6, 0.2596828043460846),
+  position: new Vector3(9.673964500427246, 6.031590461730957, 0.25968265533447266),
   rotation: new Quaternion(-6.5671565543457336e-15, 0, 6.5551651089114545e-15, -1),
-  scale: new Vector3(1.966252326965332, 1.0095791816711426, 1.700695276260376)
+  scale: new Vector3(1.966252326965332, 1.092629075050354, 1.700695276260376)
 })
 bedKing.addComponentOrReplace(transform37)
 const gltfShape9 = new GLTFShape("46b54f75-ad9d-4b63-98ac-a733c4088998/Bed King.glb")
@@ -7679,7 +7679,7 @@ script3.spawn(rainLight34, {"startOn":true,"clickable":true}, createChannel(chan
 script3.spawn(rainLight35, {"startOn":true,"clickable":true}, createChannel(channelId, rainLight35, channelBus))
 script3.spawn(rainLight36, {"startOn":true,"clickable":true}, createChannel(channelId, rainLight36, channelBus))
 script3.spawn(rainLight37, {"startOn":true,"clickable":true}, createChannel(channelId, rainLight37, channelBus))
-script4.spawn(imageFromURL, {"image":"https://i.imgur.com/VaIbxug.jpg"}, createChannel(channelId, imageFromURL, channelBus))
+script4.spawn(imageFromURL, {"image":"https://i.imgur.com/iqvATL4.jpg"}, createChannel(channelId, imageFromURL, channelBus))
 script5.spawn(verticalBlackPad, {"distance":8,"speed":6,"autoStart":true,"onReachEnd":[{"entityName":"verticalBlackPad","actionId":"goToStart","values":{}}],"onReachStart":[{"entityName":"verticalBlackPad","actionId":"goToEnd","values":{}}]}, createChannel(channelId, verticalBlackPad, channelBus))
 script6.spawn(teleport, {"x":"-140","y":"-117","name":"DOTBONGBILLIONAIRES"}, createChannel(channelId, teleport, channelBus))
 script4.spawn(imageFromURL2, {"image":"https://i.imgur.com/VRJZwwS.jpg"}, createChannel(channelId, imageFromURL2, channelBus))
