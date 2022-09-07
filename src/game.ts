@@ -7,6 +7,7 @@ import Script4 from "../7d669c08-c354-45e4-b3a3-c915c8fd6b6e/src/item"
 import Script5 from "../7abe1ec8-bd5c-4ffe-b318-f17a330296bf/src/item"
 import Script6 from "../0ee46c79-338c-445a-a506-ea26d80fbe46/src/item"
 import Script7 from "../ed36149f-76c5-45c4-a678-d4b31c4ed9ca/src/item"
+import Script8 from "../e7a6c753-ea84-4c8e-bb94-4523407a5d55/src/item"
 
 const _scene = new Entity('_scene')
 engine.addEntity(_scene)
@@ -805,38 +806,26 @@ const transform71 = new Transform({
 })
 wallPlainBlack8.addComponentOrReplace(transform71)
 
-const floorBlackSmall2 = new Entity('floorBlackSmall2')
-engine.addEntity(floorBlackSmall2)
-floorBlackSmall2.setParent(_scene)
-const transform72 = new Transform({
-  position: new Vector3(16, 0.0439528226852417, 16),
-  rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(1.9106186628341675, 1, 7.952217102050781)
-})
-floorBlackSmall2.addComponentOrReplace(transform72)
-floorBlackSmall2.addComponentOrReplace(gltfShape13)
-
 const floorBlackSmall3 = new Entity('floorBlackSmall3')
 engine.addEntity(floorBlackSmall3)
 floorBlackSmall3.setParent(_scene)
-const transform73 = new Transform({
+const transform72 = new Transform({
   position: new Vector3(12.452266693115234, 0, 16),
   rotation: new Quaternion(0, 0, 0, 1),
   scale: new Vector3(6.179222106933594, 1, 1.2927701473236084)
 })
-floorBlackSmall3.addComponentOrReplace(transform73)
+floorBlackSmall3.addComponentOrReplace(transform72)
 floorBlackSmall3.addComponentOrReplace(gltfShape13)
 
-const floorBlackSmall4 = new Entity('floorBlackSmall4')
-engine.addEntity(floorBlackSmall4)
-floorBlackSmall4.setParent(_scene)
-const transform74 = new Transform({
-  position: new Vector3(8.70653247833252, 0.18736529350280762, 16),
-  rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(4.330700874328613, 1, 1.2886685132980347)
+const messageBubble = new Entity('messageBubble')
+engine.addEntity(messageBubble)
+messageBubble.setParent(_scene)
+const transform73 = new Transform({
+  position: new Vector3(1.8842837810516357, 7.5, 6.677926063537598),
+  rotation: new Quaternion(3.827649985567406e-15, 0.8601371645927429, -1.0253632609646957e-7, -0.5100628733634949),
+  scale: new Vector3(0.8491899371147156, 0.5651199817657471, 0.8491899371147156)
 })
-floorBlackSmall4.addComponentOrReplace(transform74)
-floorBlackSmall4.addComponentOrReplace(gltfShape13)
+messageBubble.addComponentOrReplace(transform73)
 
 const channelId = Math.random().toString(16).slice(2)
 const channelBus = new MessageBus()
@@ -850,6 +839,7 @@ const script4 = new Script4()
 const script5 = new Script5()
 const script6 = new Script6()
 const script7 = new Script7()
+const script8 = new Script8()
 script1.init(options)
 script2.init(options)
 script3.init(options)
@@ -857,6 +847,7 @@ script4.init(options)
 script5.init(options)
 script6.init(options)
 script7.init(options)
+script8.init(options)
 script1.spawn(tableLampLight, {"startOn":true,"clickable":true}, createChannel(channelId, tableLampLight, channelBus))
 script2.spawn(roundGalleryLight2, {"startOn":true,"clickable":true}, createChannel(channelId, roundGalleryLight2, channelBus))
 script3.spawn(rainLight17, {"startOn":true,"clickable":true}, createChannel(channelId, rainLight17, channelBus))
@@ -901,3 +892,4 @@ script3.spawn(rainLight16, {"startOn":true,"clickable":true}, createChannel(chan
 script3.spawn(rainLight19, {"startOn":true,"clickable":true}, createChannel(channelId, rainLight19, channelBus))
 script3.spawn(rainLight21, {"startOn":true,"clickable":true}, createChannel(channelId, rainLight21, channelBus))
 script7.spawn(woodenDoor, {"onClickText":"Open/Close","onClick":[{"entityName":"woodenDoor","actionId":"open","values":{}}],"onOpen":[{"entityName":"verticalBlackPad","actionId":"goToEnd","values":{}}]}, createChannel(channelId, woodenDoor, channelBus))
+script8.spawn(messageBubble, {"text":"Wow, you really know how to work that chair! What else..?","fontSize":20}, createChannel(channelId, messageBubble, channelBus))
