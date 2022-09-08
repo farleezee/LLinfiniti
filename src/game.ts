@@ -831,9 +831,9 @@ const verticalYellowPad = new Entity('verticalYellowPad')
 engine.addEntity(verticalYellowPad)
 verticalYellowPad.setParent(_scene)
 const transform74 = new Transform({
-  position: new Vector3(3.137810468673706, 0, 14.5),
+  position: new Vector3(1.9025013446807861, 0, 14.558629989624023),
   rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(2.25, 1, 1)
+  scale: new Vector3(1.2315789461135864, 1, 0.9999999403953552)
 })
 verticalYellowPad.addComponentOrReplace(transform74)
 
