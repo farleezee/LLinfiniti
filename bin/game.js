@@ -6872,7 +6872,7 @@ roofBlueEdgesSmall.setParent(_scene)
 const transform3 = new Transform({
   position: new Vector3(15.973541259765625, 7.926928520202637, 15.999805450439453),
   rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(7.985433578491211, 1, 7.9903717041015625)
+  scale: new Vector3(7.960358142852783, 1, 6.646017074584961)
 })
 roofBlueEdgesSmall.addComponentOrReplace(transform3)
 const gltfShape2 = new GLTFShape("5842de4c-fc8b-47f4-9e00-74314b6989cc/BlueRoof_4Edges_Small.glb")
@@ -7670,6 +7670,27 @@ const transform74 = new Transform({
 })
 verticalYellowPad.addComponentOrReplace(transform74)
 
+const roofBlueEdgesSmall2 = new Entity('roofBlueEdgesSmall2')
+engine.addEntity(roofBlueEdgesSmall2)
+roofBlueEdgesSmall2.setParent(_scene)
+roofBlueEdgesSmall2.addComponentOrReplace(gltfShape2)
+const transform75 = new Transform({
+  position: new Vector3(3.5639562606811523, 7.926928520202637, 0),
+  rotation: new Quaternion(-5.837277581059123e-15, -1, 1.1920928244535389e-7, 0),
+  scale: new Vector3(6.213881015777588, 1, 1.3532764911651611)
+})
+roofBlueEdgesSmall2.addComponentOrReplace(transform75)
+
+const verticalYellowPad3 = new Entity('verticalYellowPad3')
+engine.addEntity(verticalYellowPad3)
+verticalYellowPad3.setParent(_scene)
+const transform76 = new Transform({
+  position: new Vector3(1.8579301834106445, 6, 1.8205139636993408),
+  rotation: new Quaternion(0, 0, 0, 1),
+  scale: new Vector3(1.2315789461135864, 1, 0.9999999403953552)
+})
+verticalYellowPad3.addComponentOrReplace(transform76)
+
 const channelId = Math.random().toString(16).slice(2)
 const channelBus = new MessageBus()
 const inventory = createInventory(UICanvas, UIContainerStack, UIImage)
@@ -7737,3 +7758,4 @@ script6.spawn(woodenDoor, {"onClickText":"Open/Close","onClick":[{"entityName":"
 script7.spawn(messageBubble, {"text":"Wow, you really know how to work that chair! What else..?","fontSize":20}, createChannel(channelId, messageBubble, channelBus))
 script4.spawn(imageFromURL4, {"image":"https://i.imgur.com/7sr6hon.jpg"}, createChannel(channelId, imageFromURL4, channelBus))
 script8.spawn(verticalYellowPad, {"distance":8,"speed":8,"autoStart":true,"onReachEnd":[{"entityName":"verticalYellowPad","actionId":"goToStart","values":{}}],"onReachStart":[{"entityName":"verticalYellowPad","actionId":"goToEnd","values":{}}]}, createChannel(channelId, verticalYellowPad, channelBus))
+script8.spawn(verticalYellowPad3, {"distance":8,"speed":8,"autoStart":true,"onReachEnd":[{"entityName":"verticalYellowPad3","actionId":"goToStart","values":{}}],"onReachStart":[{"entityName":"verticalYellowPad3","actionId":"goToEnd","values":{}}]}, createChannel(channelId, verticalYellowPad3, channelBus))
