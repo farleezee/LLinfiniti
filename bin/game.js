@@ -6872,7 +6872,7 @@ roofBlueEdgesSmall.setParent(_scene)
 const transform3 = new Transform({
   position: new Vector3(15.973541259765625, 7.926928520202637, 15.999805450439453),
   rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(7.960358142852783, 1, 6.646017074584961)
+  scale: new Vector3(7.960358142852783, 1, 6.3058929443359375)
 })
 roofBlueEdgesSmall.addComponentOrReplace(transform3)
 const gltfShape2 = new GLTFShape("5842de4c-fc8b-47f4-9e00-74314b6989cc/BlueRoof_4Edges_Small.glb")
@@ -7677,7 +7677,7 @@ roofBlueEdgesSmall2.addComponentOrReplace(gltfShape2)
 const transform75 = new Transform({
   position: new Vector3(3.5639562606811523, 7.926928520202637, 0),
   rotation: new Quaternion(-5.837277581059123e-15, -1, 1.1920928244535389e-7, 0),
-  scale: new Vector3(6.213881015777588, 1, 1.3532764911651611)
+  scale: new Vector3(6.213881015777588, 1, 1.7234196662902832)
 })
 roofBlueEdgesSmall2.addComponentOrReplace(transform75)
 
@@ -7685,7 +7685,7 @@ const verticalYellowPad3 = new Entity('verticalYellowPad3')
 engine.addEntity(verticalYellowPad3)
 verticalYellowPad3.setParent(_scene)
 const transform76 = new Transform({
-  position: new Vector3(1.8579301834106445, 6, 1.8205139636993408),
+  position: new Vector3(1.8579301834106445, 6.5, 1.8205139636993408),
   rotation: new Quaternion(0, 0, 0, 1),
   scale: new Vector3(1.2315789461135864, 1, 0.9999999403953552)
 })
