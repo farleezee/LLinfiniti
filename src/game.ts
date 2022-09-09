@@ -863,16 +863,6 @@ const transform77 = new Transform({
 })
 imageFromURL6.addComponentOrReplace(transform77)
 
-const imageFromURL7 = new Entity('imageFromURL7')
-engine.addEntity(imageFromURL7)
-imageFromURL7.setParent(_scene)
-const transform78 = new Transform({
-  position: new Vector3(15.679237365722656, 0, 9.127887725830078),
-  rotation: new Quaternion(-4.127578846475997e-15, 0.7071068286895752, -8.429368847373553e-8, -0.7071068286895752),
-  scale: new Vector3(8.545148849487305, 6, 1.0000017881393433)
-})
-imageFromURL7.addComponentOrReplace(transform78)
-
 const channelId = Math.random().toString(16).slice(2)
 const channelBus = new MessageBus()
 const inventory = createInventory(UICanvas, UIContainerStack, UIImage)
@@ -942,5 +932,4 @@ script4.spawn(imageFromURL4, {"image":"https://i.imgur.com/7sr6hon.jpg"}, create
 script8.spawn(verticalYellowPad, {"distance":8,"speed":8,"autoStart":true,"onReachEnd":[{"entityName":"verticalYellowPad","actionId":"goToStart","values":{}}],"onReachStart":[{"entityName":"verticalYellowPad","actionId":"goToEnd","values":{}}]}, createChannel(channelId, verticalYellowPad, channelBus))
 script8.spawn(verticalYellowPad3, {"distance":8,"speed":8,"autoStart":true,"onReachEnd":[{"entityName":"verticalYellowPad3","actionId":"goToStart","values":{}}],"onReachStart":[{"entityName":"verticalYellowPad3","actionId":"goToEnd","values":{}}]}, createChannel(channelId, verticalYellowPad3, channelBus))
 script4.spawn(imageFromURL5, {"image":"https://i.imgur.com/bPs9PCh.jpg"}, createChannel(channelId, imageFromURL5, channelBus))
-script4.spawn(imageFromURL6, {"image":"https://i.imgur.com/3Ow2XgW.jpg"}, createChannel(channelId, imageFromURL6, channelBus))
-script4.spawn(imageFromURL7, {"image":"https://i.imgur.com/2ed5tPB.png"}, createChannel(channelId, imageFromURL7, channelBus))
+script4.spawn(imageFromURL6, {"image":"https://i.imgur.com/2ed5tPB.png"}, createChannel(channelId, imageFromURL6, channelBus))
