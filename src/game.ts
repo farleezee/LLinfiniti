@@ -85,9 +85,9 @@ const tableLampLight = new Entity('tableLampLight')
 engine.addEntity(tableLampLight)
 tableLampLight.setParent(_scene)
 const transform6 = new Transform({
-  position: new Vector3(5.292802333831787, 6.655309200286865, 1.0086692571640015),
+  position: new Vector3(5.331078052520752, 6.8182854652404785, 1.0086692571640015),
   rotation: new Quaternion(-4.504429098665355e-16, 0.7071068286895752, -8.429368136830817e-8, -0.7071068286895752),
-  scale: new Vector3(0.6755492091178894, 1.1208571195602417, 0.8011268377304077)
+  scale: new Vector3(0.6755490303039551, 1.4100017547607422, 0.9797425270080566)
 })
 tableLampLight.addComponentOrReplace(transform6)
 
@@ -372,9 +372,9 @@ gltfShape7.isPointerBlocker = true
 gltfShape7.visible = true
 table2.addComponentOrReplace(gltfShape7)
 const transform32 = new Transform({
-  position: new Vector3(4.949451923370361, 6.0471954345703125, 0.8691387176513672),
+  position: new Vector3(4.911175727844238, 6.053297996520996, 0.8691387176513672),
   rotation: new Quaternion(-3.4823604774542744e-14, 0, 6.786915440862599e-15, -1),
-  scale: new Vector3(0.9470877647399902, 0.7271562814712524, 0.829517126083374)
+  scale: new Vector3(1.1582446098327637, 0.9147389531135559, 0.829517126083374)
 })
 table2.addComponentOrReplace(transform32)
 
@@ -958,9 +958,9 @@ const imageFromURL16 = new Entity('imageFromURL16')
 engine.addEntity(imageFromURL16)
 imageFromURL16.setParent(_scene)
 const transform87 = new Transform({
-  position: new Vector3(8.01158618927002, 6.152068138122559, 0.32691526412963867),
+  position: new Vector3(7.621404647827148, 6.002869129180908, 0.3269157409667969),
   rotation: new Quaternion(2.103507899277584e-14, 0, 8.193957868446976e-15, 1),
-  scale: new Vector3(7.580821514129639, 5.625, 1.0000057220458984)
+  scale: new Vector3(8.023640632629395, 5.908914566040039, 1.0000057220458984)
 })
 imageFromURL16.addComponentOrReplace(transform87)
 
