@@ -8,6 +8,7 @@ import Script5 from "../0ee46c79-338c-445a-a506-ea26d80fbe46/src/item"
 import Script6 from "../ed36149f-76c5-45c4-a678-d4b31c4ed9ca/src/item"
 import Script7 from "../e7a6c753-ea84-4c8e-bb94-4523407a5d55/src/item"
 import Script8 from "../fa423878-fbbe-4333-80a8-3d3f2dbe5889/src/item"
+import Script9 from "../901e4555-8743-49bb-854c-c8b354a3e3e1/src/item"
 
 const _scene = new Entity('_scene')
 engine.addEntity(_scene)
@@ -343,7 +344,7 @@ barM2.addComponentOrReplace(gltfShape5)
 const transform30 = new Transform({
   position: new Vector3(15.590631484985352, 6.033209800720215, 4.19081974029541),
   rotation: new Quaternion(-1.5014858600494022e-15, -0.7071068286895752, 8.429369557916289e-8, 0.7071067690849304),
-  scale: new Vector3(1.3653874397277832, 0.7703108787536621, 0.7499998807907104)
+  scale: new Vector3(1.3653874397277832, 0.9241806864738464, 0.7499998807907104)
 })
 barM2.addComponentOrReplace(transform30)
 
@@ -356,9 +357,9 @@ gltfShape6.isPointerBlocker = true
 gltfShape6.visible = true
 loveseat2.addComponentOrReplace(gltfShape6)
 const transform31 = new Transform({
-  position: new Vector3(15.16280746459961, 6.037120819091797, 8),
+  position: new Vector3(15.137181282043457, 6.037120819091797, 8),
   rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(0.6854026317596436, 1.0266492366790771, 1.76155424118042)
+  scale: new Vector3(0.6854026317596436, 1.1398943662643433, 1.76155424118042)
 })
 loveseat2.addComponentOrReplace(transform31)
 
@@ -867,9 +868,9 @@ const imageFromURL7 = new Entity('imageFromURL7')
 engine.addEntity(imageFromURL7)
 imageFromURL7.setParent(_scene)
 const transform78 = new Transform({
-  position: new Vector3(13.358409881591797, 9, 15.659968376159668),
+  position: new Vector3(13.358409881591797, 8.5, 15.642740249633789),
   rotation: new Quaternion(-1.0818954476602468e-14, 1, -1.1920927533992653e-7, 0),
-  scale: new Vector3(5.262127876281738, 1, 1.0000030994415283)
+  scale: new Vector3(5.262127876281738, 2, 1.0000030994415283)
 })
 imageFromURL7.addComponentOrReplace(transform78)
 
@@ -877,9 +878,9 @@ const imageFromURL8 = new Entity('imageFromURL8')
 engine.addEntity(imageFromURL8)
 imageFromURL8.setParent(_scene)
 const transform79 = new Transform({
-  position: new Vector3(8.096281051635742, 9, 15.659968376159668),
+  position: new Vector3(8.096281051635742, 8.5, 15.642740249633789),
   rotation: new Quaternion(-1.0818954476602468e-14, 1, -1.1920927533992653e-7, 0),
-  scale: new Vector3(5.262126922607422, 1, 1.0000033378601074)
+  scale: new Vector3(5.262126922607422, 2, 1.0000033378601074)
 })
 imageFromURL8.addComponentOrReplace(transform79)
 
@@ -887,9 +888,9 @@ const imageFromURL9 = new Entity('imageFromURL9')
 engine.addEntity(imageFromURL9)
 imageFromURL9.setParent(_scene)
 const transform80 = new Transform({
-  position: new Vector3(2.8341526985168457, 9, 15.659968376159668),
+  position: new Vector3(2.8341526985168457, 8.5, 15.642740249633789),
   rotation: new Quaternion(-1.0818954476602468e-14, 1, -1.1920927533992653e-7, 0),
-  scale: new Vector3(5.262125492095947, 1, 1.0000035762786865)
+  scale: new Vector3(5.262125492095947, 2, 1.0000035762786865)
 })
 imageFromURL9.addComponentOrReplace(transform80)
 
@@ -897,9 +898,9 @@ const imageFromURL10 = new Entity('imageFromURL10')
 engine.addEntity(imageFromURL10)
 imageFromURL10.setParent(_scene)
 const transform81 = new Transform({
-  position: new Vector3(0.3486880660057068, 8.999999046325684, 2.86142635345459),
+  position: new Vector3(0.34868812561035156, 8.499998092651367, 2.86142635345459),
   rotation: new Quaternion(-4.084899820879168e-15, -0.7071068286895752, 8.429370268459024e-8, -0.7071068286895752),
-  scale: new Vector3(5.138570785522461, 1, 1.0000042915344238)
+  scale: new Vector3(5.138566493988037, 2, 1.000004768371582)
 })
 imageFromURL10.addComponentOrReplace(transform81)
 
@@ -907,9 +908,9 @@ const imageFromURL11 = new Entity('imageFromURL11')
 engine.addEntity(imageFromURL11)
 imageFromURL11.setParent(_scene)
 const transform82 = new Transform({
-  position: new Vector3(0, 9, 8.063704490661621),
+  position: new Vector3(0, 8.5, 8.063704490661621),
   rotation: new Quaternion(-1.08028566154399e-14, 0.7071068286895752, -8.42937097900176e-8, -0.7071068286895752),
-  scale: new Vector3(5.2858781814575195, 1, 1.0000050067901611)
+  scale: new Vector3(5.2858757972717285, 2, 1.0000054836273193)
 })
 imageFromURL11.addComponentOrReplace(transform82)
 
@@ -917,9 +918,9 @@ const imageFromURL12 = new Entity('imageFromURL12')
 engine.addEntity(imageFromURL12)
 imageFromURL12.setParent(_scene)
 const transform83 = new Transform({
-  position: new Vector3(0, 9, 2.7778196334838867),
+  position: new Vector3(0, 8.5, 2.7778196334838867),
   rotation: new Quaternion(-1.08028566154399e-14, 0.7071068286895752, -8.42937097900176e-8, -0.7071068286895752),
-  scale: new Vector3(5.285881042480469, 1, 1.000004768371582)
+  scale: new Vector3(5.285879611968994, 2, 1.0000052452087402)
 })
 imageFromURL12.addComponentOrReplace(transform83)
 
@@ -927,9 +928,9 @@ const imageFromURL13 = new Entity('imageFromURL13')
 engine.addEntity(imageFromURL13)
 imageFromURL13.setParent(_scene)
 const transform84 = new Transform({
-  position: new Vector3(15.646045684814453, 9, 13.13857364654541),
+  position: new Vector3(15.646045684814453, 8.5, 13.13857364654541),
   rotation: new Quaternion(1.1190326754963696e-14, -0.7071068286895752, 8.42937097900176e-8, 0.7071068286895752),
-  scale: new Vector3(5.138567924499512, 1, 1.0000059604644775)
+  scale: new Vector3(5.138564586639404, 2, 1.0000064373016357)
 })
 imageFromURL13.addComponentOrReplace(transform84)
 
@@ -937,9 +938,9 @@ const imageFromURL14 = new Entity('imageFromURL14')
 engine.addEntity(imageFromURL14)
 imageFromURL14.setParent(_scene)
 const transform85 = new Transform({
-  position: new Vector3(15.646045684814453, 9, 8),
+  position: new Vector3(15.646045684814453, 8.5, 8),
   rotation: new Quaternion(1.1190326754963696e-14, -0.7071068286895752, 8.42937097900176e-8, 0.7071068286895752),
-  scale: new Vector3(5.138566017150879, 1, 1.0000057220458984)
+  scale: new Vector3(5.138563632965088, 2, 1.0000061988830566)
 })
 imageFromURL14.addComponentOrReplace(transform85)
 
@@ -947,9 +948,9 @@ const imageFromURL15 = new Entity('imageFromURL15')
 engine.addEntity(imageFromURL15)
 imageFromURL15.setParent(_scene)
 const transform86 = new Transform({
-  position: new Vector3(15.646045684814453, 9, 2.86142635345459),
+  position: new Vector3(15.646045684814453, 8.5, 2.86142635345459),
   rotation: new Quaternion(1.1190326754963696e-14, -0.7071068286895752, 8.42937097900176e-8, 0.7071068286895752),
-  scale: new Vector3(5.1385698318481445, 1, 1.0000054836273193)
+  scale: new Vector3(5.13856840133667, 2, 1.0000059604644775)
 })
 imageFromURL15.addComponentOrReplace(transform86)
 
@@ -957,9 +958,9 @@ const imageFromURL16 = new Entity('imageFromURL16')
 engine.addEntity(imageFromURL16)
 imageFromURL16.setParent(_scene)
 const transform87 = new Transform({
-  position: new Vector3(8.01158618927002, 8.230056762695312, 0.3269154131412506),
+  position: new Vector3(8.01158618927002, 6.152068138122559, 0.32691526412963867),
   rotation: new Quaternion(2.103507899277584e-14, 0, 8.193957868446976e-15, 1),
-  scale: new Vector3(15.16164493560791, 2.5, 1.000005841255188)
+  scale: new Vector3(7.580821514129639, 5.625, 1.0000057220458984)
 })
 imageFromURL16.addComponentOrReplace(transform87)
 
@@ -967,9 +968,9 @@ const imageFromURL17 = new Entity('imageFromURL17')
 engine.addEntity(imageFromURL17)
 imageFromURL17.setParent(_scene)
 const transform88 = new Transform({
-  position: new Vector3(0, 9, 13.349589347839355),
+  position: new Vector3(0, 8.5, 13.349589347839355),
   rotation: new Quaternion(-1.08028566154399e-14, 0.7071068286895752, -8.42937097900176e-8, -0.7071068286895752),
-  scale: new Vector3(5.285877704620361, 1, 1.0000052452087402)
+  scale: new Vector3(5.285874366760254, 2, 1.0000057220458984)
 })
 imageFromURL17.addComponentOrReplace(transform88)
 
@@ -977,9 +978,9 @@ const imageFromURL18 = new Entity('imageFromURL18')
 engine.addEntity(imageFromURL18)
 imageFromURL18.setParent(_scene)
 const transform89 = new Transform({
-  position: new Vector3(0.3486880660057068, 9, 8),
+  position: new Vector3(0.3486880660057068, 8.5, 8),
   rotation: new Quaternion(-4.084899820879168e-15, -0.7071068286895752, 8.429370268459024e-8, -0.7071068286895752),
-  scale: new Vector3(5.1385698318481445, 1, 1.0000040531158447)
+  scale: new Vector3(5.138565540313721, 2, 1.000004529953003)
 })
 imageFromURL18.addComponentOrReplace(transform89)
 
@@ -987,9 +988,9 @@ const imageFromURL19 = new Entity('imageFromURL19')
 engine.addEntity(imageFromURL19)
 imageFromURL19.setParent(_scene)
 const transform90 = new Transform({
-  position: new Vector3(0.3486880660057068, 9.000000953674316, 13.13857364654541),
+  position: new Vector3(0.3486880660057068, 8.500001907348633, 13.13857364654541),
   rotation: new Quaternion(-4.084899820879168e-15, -0.7071068286895752, 8.429370268459024e-8, -0.7071068286895752),
-  scale: new Vector3(5.138571739196777, 1, 1.0000038146972656)
+  scale: new Vector3(5.13856840133667, 2, 1.0000042915344238)
 })
 imageFromURL19.addComponentOrReplace(transform90)
 
@@ -997,9 +998,9 @@ const imageFromURL20 = new Entity('imageFromURL20')
 engine.addEntity(imageFromURL20)
 imageFromURL20.setParent(_scene)
 const transform91 = new Transform({
-  position: new Vector3(13.285886764526367, 8.999999046325684, 15.97330093383789),
+  position: new Vector3(13.285886764526367, 8.499998092651367, 15.97330093383789),
   rotation: new Quaternion(2.94207407459772e-14, 0, 1.3745164471131062e-14, 1),
-  scale: new Vector3(5.285878658294678, 1, 1.0000057220458984)
+  scale: new Vector3(5.285878658294678, 2, 1.0000057220458984)
 })
 imageFromURL20.addComponentOrReplace(transform91)
 
@@ -1007,9 +1008,9 @@ const imageFromURL21 = new Entity('imageFromURL21')
 engine.addEntity(imageFromURL21)
 imageFromURL21.setParent(_scene)
 const transform92 = new Transform({
-  position: new Vector3(8.000000953674316, 9, 15.97330093383789),
+  position: new Vector3(8.000000953674316, 8.5, 15.97330093383789),
   rotation: new Quaternion(2.94207407459772e-14, 0, 1.3745164471131062e-14, 1),
-  scale: new Vector3(5.285879135131836, 1, 1.0000054836273193)
+  scale: new Vector3(5.285879135131836, 2, 1.0000054836273193)
 })
 imageFromURL21.addComponentOrReplace(transform92)
 
@@ -1017,9 +1018,9 @@ const imageFromURL22 = new Entity('imageFromURL22')
 engine.addEntity(imageFromURL22)
 imageFromURL22.setParent(_scene)
 const transform93 = new Transform({
-  position: new Vector3(2.714115619659424, 9.000000953674316, 15.97330093383789),
+  position: new Vector3(2.714115619659424, 8.500001907348633, 15.97330093383789),
   rotation: new Quaternion(2.94207407459772e-14, 0, 1.3745164471131062e-14, 1),
-  scale: new Vector3(5.285881996154785, 1, 1.0000052452087402)
+  scale: new Vector3(5.285881996154785, 2, 1.0000052452087402)
 })
 imageFromURL22.addComponentOrReplace(transform93)
 
@@ -1027,9 +1028,9 @@ const imageFromURL23 = new Entity('imageFromURL23')
 engine.addEntity(imageFromURL23)
 imageFromURL23.setParent(_scene)
 const transform94 = new Transform({
-  position: new Vector3(15.996297836303711, 8.999999046325684, 2.7778196334838867),
+  position: new Vector3(15.996297836303711, 8.499998092651367, 2.7778196334838867),
   rotation: new Quaternion(2.5328123184399122e-14, 0.7071068286895752, -8.42937097900176e-8, 0.7071068286895752),
-  scale: new Vector3(5.285877704620361, 1, 1.0000061988830566)
+  scale: new Vector3(5.285874366760254, 2, 1.0000066757202148)
 })
 imageFromURL23.addComponentOrReplace(transform94)
 
@@ -1037,9 +1038,9 @@ const imageFromURL24 = new Entity('imageFromURL24')
 engine.addEntity(imageFromURL24)
 imageFromURL24.setParent(_scene)
 const transform95 = new Transform({
-  position: new Vector3(15.996297836303711, 9, 8.063704490661621),
+  position: new Vector3(15.996297836303711, 8.5, 8.063704490661621),
   rotation: new Quaternion(2.5328123184399122e-14, 0.7071068286895752, -8.42937097900176e-8, 0.7071068286895752),
-  scale: new Vector3(5.2858781814575195, 1, 1.0000059604644775)
+  scale: new Vector3(5.2858757972717285, 2, 1.0000064373016357)
 })
 imageFromURL24.addComponentOrReplace(transform95)
 
@@ -1047,11 +1048,51 @@ const imageFromURL25 = new Entity('imageFromURL25')
 engine.addEntity(imageFromURL25)
 imageFromURL25.setParent(_scene)
 const transform96 = new Transform({
-  position: new Vector3(15.996297836303711, 9.000000953674316, 13.349589347839355),
+  position: new Vector3(15.996297836303711, 8.500001907348633, 13.349589347839355),
   rotation: new Quaternion(2.5328123184399122e-14, 0.7071068286895752, -8.42937097900176e-8, 0.7071068286895752),
-  scale: new Vector3(5.285881042480469, 1, 1.0000057220458984)
+  scale: new Vector3(5.285879611968994, 2, 1.0000061988830566)
 })
 imageFromURL25.addComponentOrReplace(transform96)
+
+const radio = new Entity('radio')
+engine.addEntity(radio)
+radio.setParent(_scene)
+const transform97 = new Transform({
+  position: new Vector3(15.429515838623047, 6.184481620788574, 12.008336067199707),
+  rotation: new Quaternion(-1.5394153601527394e-15, -0.7071068286895752, 8.429369557916289e-8, 0.7071068286895752),
+  scale: new Vector3(1.0000014305114746, 1, 1.0000014305114746)
+})
+radio.addComponentOrReplace(transform97)
+
+const radio2 = new Entity('radio2')
+engine.addEntity(radio2)
+radio2.setParent(_scene)
+const transform98 = new Transform({
+  position: new Vector3(15.429515838623047, 6.684481620788574, 12.008336067199707),
+  rotation: new Quaternion(-1.5394153601527394e-15, -0.7071068286895752, 8.429369557916289e-8, 0.7071068286895752),
+  scale: new Vector3(1.0000016689300537, 1, 1.0000016689300537)
+})
+radio2.addComponentOrReplace(transform98)
+
+const radio3 = new Entity('radio3')
+engine.addEntity(radio3)
+radio3.setParent(_scene)
+const transform99 = new Transform({
+  position: new Vector3(15.429515838623047, 7.184481620788574, 12.008336067199707),
+  rotation: new Quaternion(-1.5394153601527394e-15, -0.7071068286895752, 8.429369557916289e-8, 0.7071068286895752),
+  scale: new Vector3(1.0000019073486328, 1, 1.0000019073486328)
+})
+radio3.addComponentOrReplace(transform99)
+
+const radio4 = new Entity('radio4')
+engine.addEntity(radio4)
+radio4.setParent(_scene)
+const transform100 = new Transform({
+  position: new Vector3(15.429515838623047, 7.684481620788574, 12.008336067199707),
+  rotation: new Quaternion(-1.5394153601527394e-15, -0.7071068286895752, 8.429369557916289e-8, 0.7071068286895752),
+  scale: new Vector3(1.000002145767212, 1, 1.000002145767212)
+})
+radio4.addComponentOrReplace(transform100)
 
 const channelId = Math.random().toString(16).slice(2)
 const channelBus = new MessageBus()
@@ -1066,6 +1107,7 @@ const script5 = new Script5()
 const script6 = new Script6()
 const script7 = new Script7()
 const script8 = new Script8()
+const script9 = new Script9()
 script1.init(options)
 script2.init(options)
 script3.init(options)
@@ -1074,6 +1116,7 @@ script5.init(options)
 script6.init(options)
 script7.init(options)
 script8.init(options)
+script9.init(options)
 script1.spawn(tableLampLight, {"startOn":true,"clickable":true}, createChannel(channelId, tableLampLight, channelBus))
 script2.spawn(roundGalleryLight2, {"startOn":true,"clickable":true}, createChannel(channelId, roundGalleryLight2, channelBus))
 script3.spawn(rainLight17, {"startOn":true,"clickable":true}, createChannel(channelId, rainLight17, channelBus))
@@ -1132,7 +1175,7 @@ script4.spawn(imageFromURL12, {"image":"https://i.imgur.com/T9kuNrx.png"}, creat
 script4.spawn(imageFromURL13, {"image":"https://i.imgur.com/T9kuNrx.png"}, createChannel(channelId, imageFromURL13, channelBus))
 script4.spawn(imageFromURL14, {"image":"https://i.imgur.com/T9kuNrx.png"}, createChannel(channelId, imageFromURL14, channelBus))
 script4.spawn(imageFromURL15, {"image":"https://i.imgur.com/T9kuNrx.png"}, createChannel(channelId, imageFromURL15, channelBus))
-script4.spawn(imageFromURL16, {"image":"https://i.imgur.com/Ca9ySyi.png"}, createChannel(channelId, imageFromURL16, channelBus))
+script4.spawn(imageFromURL16, {"image":"https://i.imgur.com/5VCSsNc.png"}, createChannel(channelId, imageFromURL16, channelBus))
 script4.spawn(imageFromURL17, {"image":"https://i.imgur.com/T9kuNrx.png"}, createChannel(channelId, imageFromURL17, channelBus))
 script4.spawn(imageFromURL18, {"image":"https://i.imgur.com/T9kuNrx.png"}, createChannel(channelId, imageFromURL18, channelBus))
 script4.spawn(imageFromURL19, {"image":"https://i.imgur.com/T9kuNrx.png"}, createChannel(channelId, imageFromURL19, channelBus))
@@ -1142,3 +1185,7 @@ script4.spawn(imageFromURL22, {"image":"https://i.imgur.com/T9kuNrx.png"}, creat
 script4.spawn(imageFromURL23, {"image":"https://i.imgur.com/T9kuNrx.png"}, createChannel(channelId, imageFromURL23, channelBus))
 script4.spawn(imageFromURL24, {"image":"https://i.imgur.com/T9kuNrx.png"}, createChannel(channelId, imageFromURL24, channelBus))
 script4.spawn(imageFromURL25, {"image":"https://i.imgur.com/T9kuNrx.png"}, createChannel(channelId, imageFromURL25, channelBus))
+script9.spawn(radio, {"startOn":false,"volume":1,"onClickText":"RAVE","onClick":[{"entityName":"radio","actionId":"toggle","values":{}}],"station":"https://icecast.ravepartyradio.org/ravepartyradio-192.mp3"}, createChannel(channelId, radio, channelBus))
+script9.spawn(radio2, {"startOn":false,"volume":1,"onClickText":"SIGNS","onClick":[{"entityName":"radio2","actionId":"toggle","values":{}}],"station":"https://edge.singsingmusic.net/MC2.mp3"}, createChannel(channelId, radio2, channelBus))
+script9.spawn(radio3, {"startOn":false,"volume":1,"onClickText":"DELTA","onClick":[{"entityName":"radio3","actionId":"toggle","values":{}}],"station":"https://cdn.instream.audio/:9069/stream?_=171cd6c2b6e"}, createChannel(channelId, radio3, channelBus))
+script9.spawn(radio4, {"startOn":false,"volume":1,"onClickText":"MK LAB","onClick":[{"entityName":"radio4","actionId":"toggle","values":{}}],"station":"https://freeuk13.listen2myradio.com/live.mp3?typeportmount=s2_20223_stream_944192845"}, createChannel(channelId, radio4, channelBus))
