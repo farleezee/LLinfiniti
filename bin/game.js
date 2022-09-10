@@ -7864,7 +7864,7 @@ script7.spawn(messageBubble, {"text":"Wow, you really know how to work that chai
 script4.spawn(imageFromURL4, {"image":"https://i.imgur.com/7sr6hon.jpg"}, createChannel(channelId, imageFromURL4, channelBus))
 script8.spawn(verticalYellowPad, {"distance":8,"speed":8,"autoStart":true,"onReachEnd":[{"entityName":"verticalYellowPad","actionId":"goToStart","values":{}}],"onReachStart":[{"entityName":"verticalYellowPad","actionId":"goToEnd","values":{}}]}, createChannel(channelId, verticalYellowPad, channelBus))
 script8.spawn(verticalYellowPad3, {"distance":8,"speed":8,"autoStart":true,"onReachEnd":[{"entityName":"verticalYellowPad3","actionId":"goToStart","values":{}}],"onReachStart":[{"entityName":"verticalYellowPad3","actionId":"goToEnd","values":{}}]}, createChannel(channelId, verticalYellowPad3, channelBus))
-script4.spawn(imageFromURL5, {"image":"https://i.imgur.com/cj00PKu.png"}, createChannel(channelId, imageFromURL5, channelBus))
+script4.spawn(imageFromURL5, {"image":"https://i.imgur.com/bPs9PCh.jpg"}, createChannel(channelId, imageFromURL5, channelBus))
 script4.spawn(imageFromURL6, {"image":"https://i.imgur.com/2ed5tPB.png"}, createChannel(channelId, imageFromURL6, channelBus))
 script4.spawn(imageFromURL7, {"image":"https://i.imgur.com/T9kuNrx.png"}, createChannel(channelId, imageFromURL7, channelBus))
 script4.spawn(imageFromURL8, {"image":"https://i.imgur.com/T9kuNrx.png"}, createChannel(channelId, imageFromURL8, channelBus))
