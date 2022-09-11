@@ -1068,7 +1068,7 @@ const messageBubble2 = new Entity('messageBubble2')
 engine.addEntity(messageBubble2)
 messageBubble2.setParent(_scene)
 const transform98 = new Transform({
-  position: new Vector3(4.5, 14, 4.560471534729004),
+  position: new Vector3(8, 13, 3.979295253753662),
   rotation: new Quaternion(-1.591801404500926e-14, -0.23906885087490082, 2.8499226090161756e-8, -0.9710026383399963),
   scale: new Vector3(1.000001311302185, 1, 1.000001311302185)
 })
@@ -1166,4 +1166,4 @@ script4.spawn(imageFromURL23, {"image":"https://i.imgur.com/T9kuNrx.png"}, creat
 script4.spawn(imageFromURL24, {"image":"https://i.imgur.com/T9kuNrx.png"}, createChannel(channelId, imageFromURL24, channelBus))
 script4.spawn(imageFromURL25, {"image":"https://i.imgur.com/T9kuNrx.png"}, createChannel(channelId, imageFromURL25, channelBus))
 script9.spawn(radio3, {"startOn":false,"volume":1,"onClickText":"DELTA","onClick":[{"entityName":"radio3","actionId":"toggle","values":{}}],"station":"https://cdn.instream.audio/:9069/stream?_=171cd6c2b6e"}, createChannel(channelId, radio3, channelBus))
-script7.spawn(messageBubble2, {"text":"THANK YOU, CUM AGAIN!!\n\nnow tip those entertainers...\n\n-LeezeesLounge","fontSize":14}, createChannel(channelId, messageBubble2, channelBus))
+script7.spawn(messageBubble2, {"text":"THANK YOU, CUM AGAIN!!\n\nnow tip those entertainers...\n\n-LeezeesLounge","fontSize":12}, createChannel(channelId, messageBubble2, channelBus))
