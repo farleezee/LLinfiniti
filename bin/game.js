@@ -7901,9 +7901,9 @@ const messageBubble2 = new Entity('messageBubble2')
 engine.addEntity(messageBubble2)
 messageBubble2.setParent(_scene)
 const transform98 = new Transform({
-  position: new Vector3(12, 17, 1.0604716539382935),
-  rotation: new Quaternion(7.010910762665157e-15, -0.3406817317008972, 4.0612434304421186e-8, 0.9401787519454956),
-  scale: new Vector3(1, 1, 1)
+  position: new Vector3(4.5, 14, 4.560471534729004),
+  rotation: new Quaternion(-1.591801404500926e-14, -0.23906885087490082, 2.8499226090161756e-8, -0.9710026383399963),
+  scale: new Vector3(1.000001311302185, 1, 1.000001311302185)
 })
 messageBubble2.addComponentOrReplace(transform98)
 
@@ -7972,7 +7972,7 @@ script3.spawn(rainLight15, {"startOn":true,"clickable":true}, createChannel(chan
 script3.spawn(rainLight16, {"startOn":true,"clickable":true}, createChannel(channelId, rainLight16, channelBus))
 script3.spawn(rainLight19, {"startOn":true,"clickable":true}, createChannel(channelId, rainLight19, channelBus))
 script3.spawn(rainLight21, {"startOn":true,"clickable":true}, createChannel(channelId, rainLight21, channelBus))
-script6.spawn(woodenDoor, {"onClickText":"Open/Close","onClick":[{"entityName":"woodenDoor","actionId":"open","values":{}}],"onOpen":[]}, createChannel(channelId, woodenDoor, channelBus))
+script6.spawn(woodenDoor, {"onClickText":"Fuck Off!!","onClick":[{"entityName":"woodenDoor","actionId":"open","values":{}}],"onOpen":[]}, createChannel(channelId, woodenDoor, channelBus))
 script7.spawn(messageBubble, {"text":"Wow, you really know how to work that chair! What else..?","fontSize":20}, createChannel(channelId, messageBubble, channelBus))
 script4.spawn(imageFromURL4, {"image":"https://i.imgur.com/7sr6hon.jpg"}, createChannel(channelId, imageFromURL4, channelBus))
 script8.spawn(verticalYellowPad, {"distance":8,"speed":8,"autoStart":true,"onReachEnd":[{"entityName":"verticalYellowPad","actionId":"goToStart","values":{}}],"onReachStart":[{"entityName":"verticalYellowPad","actionId":"goToEnd","values":{}}]}, createChannel(channelId, verticalYellowPad, channelBus))
