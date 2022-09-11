@@ -1068,8 +1068,8 @@ const messageBubble2 = new Entity('messageBubble2')
 engine.addEntity(messageBubble2)
 messageBubble2.setParent(_scene)
 const transform98 = new Transform({
-  position: new Vector3(12, 17.5, 4.76837158203125e-7),
-  rotation: new Quaternion(0, 0, 0, 1),
+  position: new Vector3(12, 17, 1.0604716539382935),
+  rotation: new Quaternion(7.010910762665157e-15, -0.3406817317008972, 4.0612434304421186e-8, 0.9401787519454956),
   scale: new Vector3(1, 1, 1)
 })
 messageBubble2.addComponentOrReplace(transform98)
