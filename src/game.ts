@@ -85,9 +85,9 @@ const tableLampLight = new Entity('tableLampLight')
 engine.addEntity(tableLampLight)
 tableLampLight.setParent(_scene)
 const transform6 = new Transform({
-  position: new Vector3(5.331078052520752, 6.8182854652404785, 1.0086692571640015),
+  position: new Vector3(5.292802333831787, 6.655309200286865, 1.0086692571640015),
   rotation: new Quaternion(-4.504429098665355e-16, 0.7071068286895752, -8.429368136830817e-8, -0.7071068286895752),
-  scale: new Vector3(0.6755490303039551, 1.4100017547607422, 0.9797425270080566)
+  scale: new Vector3(0.6755492091178894, 1.1208571195602417, 0.8011268377304077)
 })
 tableLampLight.addComponentOrReplace(transform6)
 
@@ -372,9 +372,9 @@ gltfShape7.isPointerBlocker = true
 gltfShape7.visible = true
 table2.addComponentOrReplace(gltfShape7)
 const transform32 = new Transform({
-  position: new Vector3(4.911175727844238, 6.053297996520996, 0.8691387176513672),
+  position: new Vector3(4.949451923370361, 6.0471954345703125, 0.8691387176513672),
   rotation: new Quaternion(-3.4823604774542744e-14, 0, 6.786915440862599e-15, -1),
-  scale: new Vector3(1.1582446098327637, 0.9147389531135559, 0.829517126083374)
+  scale: new Vector3(0.9470877647399902, 0.7271562814712524, 0.829517126083374)
 })
 table2.addComponentOrReplace(transform32)
 
@@ -958,9 +958,9 @@ const imageFromURL16 = new Entity('imageFromURL16')
 engine.addEntity(imageFromURL16)
 imageFromURL16.setParent(_scene)
 const transform87 = new Transform({
-  position: new Vector3(7.621404647827148, 6.002869129180908, 0.3269157409667969),
+  position: new Vector3(8.01158618927002, 6.152068138122559, 0.32691526412963867),
   rotation: new Quaternion(2.103507899277584e-14, 0, 8.193957868446976e-15, 1),
-  scale: new Vector3(8.023640632629395, 5.908914566040039, 1.0000057220458984)
+  scale: new Vector3(7.580821514129639, 5.625, 1.0000057220458984)
 })
 imageFromURL16.addComponentOrReplace(transform87)
 
@@ -1054,21 +1054,21 @@ const transform96 = new Transform({
 })
 imageFromURL25.addComponentOrReplace(transform96)
 
-const radio4 = new Entity('radio4')
-engine.addEntity(radio4)
-radio4.setParent(_scene)
+const radio3 = new Entity('radio3')
+engine.addEntity(radio3)
+radio3.setParent(_scene)
 const transform97 = new Transform({
   position: new Vector3(15.429515838623047, 7.184481620788574, 12.008336067199707),
   rotation: new Quaternion(-1.5394153601527394e-15, -0.7071068286895752, 8.429369557916289e-8, 0.7071068286895752),
-  scale: new Vector3(1.000002384185791, 1, 1.000002384185791)
+  scale: new Vector3(1.0000019073486328, 1, 1.0000019073486328)
 })
-radio4.addComponentOrReplace(transform97)
+radio3.addComponentOrReplace(transform97)
 
 const messageBubble2 = new Entity('messageBubble2')
 engine.addEntity(messageBubble2)
 messageBubble2.setParent(_scene)
 const transform98 = new Transform({
-  position: new Vector3(8.5, 18.150859832763672, 12),
+  position: new Vector3(12, 17.5, 4.76837158203125e-7),
   rotation: new Quaternion(0, 0, 0, 1),
   scale: new Vector3(1, 1, 1)
 })
@@ -1165,5 +1165,5 @@ script4.spawn(imageFromURL22, {"image":"https://i.imgur.com/T9kuNrx.png"}, creat
 script4.spawn(imageFromURL23, {"image":"https://i.imgur.com/T9kuNrx.png"}, createChannel(channelId, imageFromURL23, channelBus))
 script4.spawn(imageFromURL24, {"image":"https://i.imgur.com/T9kuNrx.png"}, createChannel(channelId, imageFromURL24, channelBus))
 script4.spawn(imageFromURL25, {"image":"https://i.imgur.com/T9kuNrx.png"}, createChannel(channelId, imageFromURL25, channelBus))
-script9.spawn(radio4, {"startOn":false,"volume":1,"onClickText":"MK Lab","onClick":[{"entityName":"radio4","actionId":"toggle","values":{}}],"station":"https://freeuk13.listen2myradio.com/live.mp3?typeportmount=s2_20223_stream_944192845"}, createChannel(channelId, radio4, channelBus))
-script7.spawn(messageBubble2, {"text":"THANK YOU CUM AGAIN!!\n\ndon't forget to tip your entertainers...\n\n-LeezeesLounge","fontSize":20}, createChannel(channelId, messageBubble2, channelBus))
+script9.spawn(radio3, {"startOn":false,"volume":1,"onClickText":"DELTA","onClick":[{"entityName":"radio3","actionId":"toggle","values":{}}],"station":"https://cdn.instream.audio/:9069/stream?_=171cd6c2b6e"}, createChannel(channelId, radio3, channelBus))
+script7.spawn(messageBubble2, {"text":"THANK YOU, CUM AGAIN!!\n\nnow tip those entertainers...\n\n-LeezeesLounge","fontSize":14}, createChannel(channelId, messageBubble2, channelBus))
