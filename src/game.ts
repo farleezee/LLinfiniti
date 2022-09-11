@@ -1054,45 +1054,15 @@ const transform96 = new Transform({
 })
 imageFromURL25.addComponentOrReplace(transform96)
 
-const radio = new Entity('radio')
-engine.addEntity(radio)
-radio.setParent(_scene)
-const transform97 = new Transform({
-  position: new Vector3(15.429515838623047, 6.184481620788574, 12.008336067199707),
-  rotation: new Quaternion(-1.5394153601527394e-15, -0.7071068286895752, 8.429369557916289e-8, 0.7071068286895752),
-  scale: new Vector3(1.0000014305114746, 1, 1.0000014305114746)
-})
-radio.addComponentOrReplace(transform97)
-
-const radio2 = new Entity('radio2')
-engine.addEntity(radio2)
-radio2.setParent(_scene)
-const transform98 = new Transform({
-  position: new Vector3(15.429515838623047, 6.684481620788574, 12.008336067199707),
-  rotation: new Quaternion(-1.5394153601527394e-15, -0.7071068286895752, 8.429369557916289e-8, 0.7071068286895752),
-  scale: new Vector3(1.0000016689300537, 1, 1.0000016689300537)
-})
-radio2.addComponentOrReplace(transform98)
-
 const radio3 = new Entity('radio3')
 engine.addEntity(radio3)
 radio3.setParent(_scene)
-const transform99 = new Transform({
+const transform97 = new Transform({
   position: new Vector3(15.429515838623047, 7.184481620788574, 12.008336067199707),
   rotation: new Quaternion(-1.5394153601527394e-15, -0.7071068286895752, 8.429369557916289e-8, 0.7071068286895752),
   scale: new Vector3(1.0000019073486328, 1, 1.0000019073486328)
 })
-radio3.addComponentOrReplace(transform99)
-
-const radio4 = new Entity('radio4')
-engine.addEntity(radio4)
-radio4.setParent(_scene)
-const transform100 = new Transform({
-  position: new Vector3(15.429515838623047, 7.684481620788574, 12.008336067199707),
-  rotation: new Quaternion(-1.5394153601527394e-15, -0.7071068286895752, 8.429369557916289e-8, 0.7071068286895752),
-  scale: new Vector3(1.000002145767212, 1, 1.000002145767212)
-})
-radio4.addComponentOrReplace(transform100)
+radio3.addComponentOrReplace(transform97)
 
 const channelId = Math.random().toString(16).slice(2)
 const channelBus = new MessageBus()
@@ -1185,7 +1155,4 @@ script4.spawn(imageFromURL22, {"image":"https://i.imgur.com/T9kuNrx.png"}, creat
 script4.spawn(imageFromURL23, {"image":"https://i.imgur.com/T9kuNrx.png"}, createChannel(channelId, imageFromURL23, channelBus))
 script4.spawn(imageFromURL24, {"image":"https://i.imgur.com/T9kuNrx.png"}, createChannel(channelId, imageFromURL24, channelBus))
 script4.spawn(imageFromURL25, {"image":"https://i.imgur.com/T9kuNrx.png"}, createChannel(channelId, imageFromURL25, channelBus))
-script9.spawn(radio, {"startOn":false,"volume":1,"onClickText":"RAVE","onClick":[{"entityName":"radio","actionId":"toggle","values":{}}],"station":"https://icecast.ravepartyradio.org/ravepartyradio-192.mp3"}, createChannel(channelId, radio, channelBus))
-script9.spawn(radio2, {"startOn":false,"volume":1,"onClickText":"SIGNS","onClick":[{"entityName":"radio2","actionId":"toggle","values":{}}],"station":"https://edge.singsingmusic.net/MC2.mp3"}, createChannel(channelId, radio2, channelBus))
-script9.spawn(radio3, {"startOn":false,"volume":1,"onClickText":"DELTA","onClick":[{"entityName":"radio3","actionId":"toggle","values":{}}],"station":"https://cdn.instream.audio/:9069/stream?_=171cd6c2b6e"}, createChannel(channelId, radio3, channelBus))
-script9.spawn(radio4, {"startOn":false,"volume":1,"onClickText":"MK LAB","onClick":[{"entityName":"radio4","actionId":"toggle","values":{}}],"station":"https://freeuk13.listen2myradio.com/live.mp3?typeportmount=s2_20223_stream_944192845"}, createChannel(channelId, radio4, channelBus))
+script9.spawn(radio3, {"startOn":false,"volume":1,"onClickText":"SIGNS","onClick":[{"entityName":"radio3","actionId":"toggle","values":{}}],"station":"https://edge.singsingmusic.net/MC2.mp3"}, createChannel(channelId, radio3, channelBus))
