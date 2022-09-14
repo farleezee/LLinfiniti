@@ -6,7 +6,7 @@
   },
   "owner": "",
   "contact": {
-    "name": "Leezee",
+    "name": "author-name",
     "email": ""
   },
   "main": "bin/game.js",
@@ -20,7 +20,7 @@
   "source": {
     "version": 1,
     "origin": "builder",
-    "projectId": "87c2079c-7772-4559-bb9d-371b3dd871f3",
+    "projectId": "9fb9689e-6761-47ac-a7c5-1640481757e2",
     "point": {
       "x": 0,
       "y": 0
