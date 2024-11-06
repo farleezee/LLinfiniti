@@ -1,26 +1,57 @@
 {
-  "display": {
-    "title": "LL2022- tower",
-    "favicon": "favicon_asset",
-    "navmapThumbnail": "scene-thumbnail.png"
-  },
-  "owner": "",
   "contact": {
     "name": "Leezee",
     "email": ""
   },
+  "default": {
+    "display": {
+      "title": "interactive-text",
+      "favicon": "favicon_asset"
+    },
+    "owner": "",
+    "contact": {
+      "name": "Leezee",
+      "email": ""
+    },
+    "main": "bin/game.js",
+    "tags": [],
+    "scene": {
+      "parcels": [
+        "0,0"
+      ],
+      "base": "0,0"
+    },
+    "communications": {
+      "type": "webrtc",
+      "signalling": "https://signalling-01.decentraland.org"
+    },
+    "policy": {
+      "contentRating": "E",
+      "fly": true,
+      "voiceEnabled": true,
+      "blacklist": [],
+      "teleportPosition": ""
+    }
+  },
+  "display": {
+    "title": "Old_LL2022- tower",
+    "favicon": "favicon_asset",
+    "description": "",
+    "navmapThumbnail": "scene-thumbnail.png"
+  },
   "main": "bin/game.js",
-  "tags": [],
+  "owner": "",
   "scene": {
     "parcels": [
       "0,0"
     ],
     "base": "0,0"
   },
+  "tags": [],
   "source": {
     "version": 1,
     "origin": "builder",
-    "projectId": "9fb9689e-6761-47ac-a7c5-1640481757e2",
+    "projectId": "aeb6fe41-f9e8-4ebe-8cce-2c2feb02edf9",
     "point": {
       "x": 0,
       "y": 0

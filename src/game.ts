@@ -71,7 +71,7 @@ nft2.setParent(_scene)
 const transform5 = new Transform({
   position: new Vector3(2.7931766510009766, 9.474550247192383, 15.591558456420898),
   rotation: new Quaternion(-7.83784319456464e-15, 0.0001688599440967664, -2.0128910691030732e-11, -1),
-  scale: new Vector3(5.428791046142578, 4.81174373626709, 1)
+  scale: new Vector3(5.428788185119629, 2.4783318042755127, 1)
 })
 nft2.addComponentOrReplace(transform5)
 const nftShape2 = new NFTShape("ethereum://0x2a46f2ffd99e19a89476e2f62270e0a35bbf0756/18165")
@@ -528,9 +528,9 @@ engine.addEntity(wallPlainBlack5)
 wallPlainBlack5.setParent(_scene)
 wallPlainBlack5.addComponentOrReplace(gltfShape4)
 const transform45 = new Transform({
-  position: new Vector3(12.18528938293457, 0, 13.16261100769043),
+  position: new Vector3(11, 1, 12.5),
   rotation: new Quaternion(-4.127578846475997e-15, 0.7071068286895752, -8.429368847373553e-8, -0.7071068286895752),
-  scale: new Vector3(4.879998683929443, 1.5, 1.000002384185791)
+  scale: new Vector3(4.880000591278076, 1.5, 1.0000028610229492)
 })
 wallPlainBlack5.addComponentOrReplace(transform45)
 
